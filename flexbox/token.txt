@@ -1,5 +1,7 @@
 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
 
+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
+
 https://github.com/KonstantinDenisenko/BMS.git
 
 
@@ -8,3 +10,26 @@ The authenticity of host 'github.com (140.82.121.4)' can't be established.
 RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
 This key is not known by any other names
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
+
+
+
+
+…or create a new repository on the command line
+
+echo "# BMS-BMS.html" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/KonstantinDenisenko/BMS-BMS.html.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/KonstantinDenisenko/BMS-BMS.html.git
+git branch -M main
+git push -u origin main
+
+…or import code from another repository
+
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
