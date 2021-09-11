@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9356976a-421c-443c-921d-a35cff99a12d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/BMS.css" afterPath="$PROJECT_DIR$/css/BMS.css" />
+      <change beforePath="$PROJECT_DIR$/flexbox/token.txt" afterPath="$PROJECT_DIR$/flexbox/token.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -106,7 +106,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="892" />
     <option name="y" value="39" />
     <option name="width" value="1010" />
@@ -190,15 +190,15 @@
       <workItem from="1631176519082" duration="21590000" />
       <workItem from="1631301700135" duration="11537000" />
       <workItem from="1631352473854" duration="2207000" />
-      <workItem from="1631391405978" duration="437000" />
+      <workItem from="1631391405978" duration="823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124621000" />
+    <option name="totallyTimeSpent" value="125007000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="892" y="39" width="1010" height="955" extended-state="0" />
+    <frame x="892" y="39" width="1010" height="955" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0694165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
