@@ -732,6 +732,9 @@ and (-webkit-min-device-pixel-ratio: 3) {
         border-radius: 50%;
         padding: 25px;
     }
+    .contact {
+        font-size: unset;
+    }
     .contact h2 {
         font-size: 55px;
     }
@@ -968,6 +971,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
         border: solid 17px deepskyblue;
         border-radius: 50%;
         padding: 25px;
+    }
+    .contact {
+        font-size: unset;
     }
     .contact h2 {
         font-size: 55px;
