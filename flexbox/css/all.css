@@ -1,0 +1,266 @@
+body {
+	margin: -20px 0 0 0;
+	font-size: 18px;
+	color: #626262;
+}
+.properties {
+	background-color: orange;
+	margin-bottom: 20px;
+}
+h1 {
+	margin: 20px 0 0 0;
+	text-align: center;
+	background-color: blue;
+	color: white;
+}
+ul {
+	margin: 0;
+	padding: 0 0 0 50px;
+	color: white;
+}
+a {
+	color: red;
+}
+.flex {
+	margin-bottom: 20px;
+	background-color: black;
+	display: flex;
+}
+.flex-element {
+	background-color: red;
+	margin: 10px;
+	padding: 5px;
+	color: white;
+}
+.flex-container {
+	margin-bottom: 0;
+	flex-direction: row;
+	height: 200px;
+}
+.flex-container2 {
+	flex-direction: row-reverse;
+	height: 200px;
+}
+.flex-container3 {
+	flex-direction: column;
+}
+.flex-container4 {
+	flex-direction: column-reverse;
+
+}
+.flex-container5 {
+	flex-wrap: wrap;
+}
+.flex-container5 .flex-element {
+	width: 180px;
+}
+.flex-container6 {
+	flex-wrap: wrap-reverse;
+}
+.flex-container6 .flex-element {
+	width: 180px;
+}
+.flex-container7 {
+	justify-content: flex-start;
+}
+.flex-container8 {
+	justify-content: flex-end;
+}
+.flex-container9 {
+	justify-content: center;
+}
+.flex-container10 {
+	justify-content: space-between;
+}
+.flex-container11 {
+	justify-content: space-around;
+}
+.container-height {
+	height: 150px;
+}
+.flex-container12 {
+	align-items: stretch;
+}
+.flex-container13 {
+	align-items: flex-start;
+}
+.flex-container14 {
+	align-items: flex-end;
+}
+.flex-container15 {
+	align-items: center;
+}
+.flex-container16 {
+	align-items: baseline;
+}
+.size1 {
+	font-size: 10px;
+}
+.size3 {
+	font-size: 18px;
+}
+.size5 {
+	font-size: 22px;
+}
+.size8 {
+	font-size: 8px;
+}
+.size11 {
+	font-size: 12px;
+}
+.height-wrap {
+	height: 350px;
+	flex-wrap: wrap;
+}
+.flex-container17 {
+	align-content: stretch;
+}
+.flex-element2 {
+	background-color: red;
+	margin: 1px;
+	padding: 5px;
+	color: white;
+	width: 80px;
+	height: 80px;
+}
+.flex-container18 {
+	align-content: flex-start;
+}
+.flex-container19 {
+	align-content: flex-end;
+}
+.flex-container20 {
+	align-content: center;
+}
+.flex-container21 {
+	align-content: space-between;
+}
+.flex-container22 {
+	align-content: space-around;
+}
+.flex-container23 .element-properties1{
+	order: 5;
+}
+.flex-container23 .element-properties2{
+	order: -1;
+}
+.flex-container23 .element-properties3{
+	order: 2;
+}
+.flex-container23 .element-properties4{
+	order: 0;
+}
+.flex-container23 .element-properties5{
+	order: 1;
+}
+.flex-container23 div {
+	text-align: center;
+}
+span {
+	display: block;
+	color: purple;
+}
+.flex-container24 .element-properties1{
+	flex-grow: 1;
+}
+.flex-container24 .element-properties2{
+	flex-grow: 2;
+}
+.flex-container24 .element-properties3{
+	flex-grow: 3;
+}
+.flex-container24 .element-properties4{
+	flex-grow: 1;
+}
+.flex-container24 .element-properties5{
+	flex-grow: 1;
+}
+.flex-container24 div {
+	text-align: center;
+}
+.flex-grow .element-properties1{
+	flex-grow: 1;
+}
+.flex-grow .element-properties2{
+	flex-grow: 1;
+}
+.flex-grow .element-properties3{
+	flex-grow: 1;
+}
+.flex-grow .element-properties4{
+	flex-grow: 1;
+}
+.flex-grow .element-properties5{
+	flex-grow: 1;
+}
+.flex-grow div {
+	1text-align: center;
+}
+.flex-shrink .element-properties1{
+	width: 500px;
+}
+.flex-shrink .element-properties2{
+	flex-shrink: 0;
+	width: 500px;
+}
+.flex-shrink .element-properties3{
+	width: 500px;
+}
+.flex-shrink .element-properties4{
+	width: 500px;
+}
+.flex-shrink .element-properties5{
+	width: 500px;
+}
+.flex-shrink div {
+	text-align: center;
+}
+.flex-basis .element-properties1{
+	width: 100px;
+}
+.flex-basis .element-properties2{
+	flex-basis: 200px;
+	width: 100px;
+}
+.flex-basis .element-properties3{
+	width: 100px;
+}
+.flex-basis .element-properties4{
+	width: 100px;
+}
+.flex-basis .element-properties5{
+	width: 100px;
+}
+.flex-basis div {
+	text-align: center;
+}
+.flex-container27 {
+	height: 300px;
+}
+.align-self .element-properties1{
+	width: 100px;
+	align-self: auto;
+}
+.align-self .element-properties2{
+	width: 100px;
+	align-self: flex-start;
+}
+.align-self .element-properties3{
+	width: 100px;
+	align-self: flex-end;
+}
+.align-self .element-properties4{
+	width: 100px;
+	align-self: center ;
+}
+.align-self .element-properties5{
+	width: 100px;
+	align-self: baseline ;
+}
+.align-self .element-properties6 {
+	width: 100px;
+	align-self: stretch;
+}
+.align-self div {
+	text-align: center;
+}

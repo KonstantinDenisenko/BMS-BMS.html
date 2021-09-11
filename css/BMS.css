@@ -1,0 +1,1043 @@
+body {
+    margin: 0;
+    color: white;
+    1font-family: 'Oleo Script', cursive;
+}
+.main {
+    background: black;
+}
+.page {
+    width: 100%;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.headerWrap {
+    display: flex;
+    width: 1200px;
+    padding: 20px 25px 100px;
+    justify-content: space-between;
+}
+@media(min-width: 0px) and (max-width: 850px) {
+    .headerWrap {
+        padding: 20px 25px 50px;
+    }
+}
+.logo {
+    padding: 0 5px 0 0;
+    //margin-right: 35px;
+    font-size: 37px;
+    font-weight: bold;
+    background: url(../img/background.png) 155px 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+/*    font-family: 'Abril Fatface', cursive;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Playball', cursive;
+    font-family: 'Tourney', cursive;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Tourney', cursive;*/
+}
+.logo:hover {
+    background: url(../img/Gold.jpg) -125px -125px;
+    -webkit-text-fill-color: unset;
+    border-radius: 50px;
+    padding: 0 5px 0;
+    cursor: pointer;
+}
+.btn {
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 25px;
+    background: red;
+    background: url(../img/Gold.jpg) -270px -400px;
+    cursor: pointer;
+
+    animation-duration: 1s;
+    animation-name: btn;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes btn {
+    from {
+        background: url(../img/Gold.jpg) -170px -400px;
+    }
+    50% {
+        background: url(../img/Gold.jpg) -210px -400px;
+    }
+
+    to {
+        background: url(../img/Gold.jpg) -270px -400px;
+    }
+}
+.navigation {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation li {
+    margin: 10px 10px;
+    color: white;
+    font-size: 18px;
+}
+.navigation li:hover {
+    cursor: pointer;
+    background: url(../img/Gold.jpg) -370px -400px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sideMenu {
+    display: none;
+    width: 35px;
+    height: 30px;
+}
+.sideMenu:hover {
+    cursor: pointer;
+}
+.sideMenu div {
+    height: 5px;
+    background: goldenrod;
+    margin-bottom: 5px;
+}
+.sideMenu:hover div {
+    background: white;
+}
+@media(min-width: 0px) and (max-width: 850px) {
+    .sideMenu {
+        display: block;
+    }
+}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3) {
+    .sideMenu {
+        display: block;
+    }
+}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .sideMenu {
+        display: block;
+    }
+}
+.mainLogo {
+    margin: 0 200px 0 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media(min-width: 850px) and (max-width: 1200px) {
+    .mainLogo {
+        margin: 0 100px 0 200px;
+    }
+}
+@media(min-width: 0px) and (max-width: 850px) {
+    .mainLogo {
+        margin: 0 50px 0 100px;
+    }
+}
+.mainLogoImg {
+    width: 100%;
+}
+.mainLogoGirl {
+    width: 100%;
+}
+.aboutUsWrap {
+    display: flex;
+    background: url(../img/Gold.jpg) no-repeat;
+}
+.aboutUs {
+    width: 900px;
+    margin: 0 auto;
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.aboutUs h2 {
+    margin: 0 0 25px 0;
+    background: url(../img/background.png) -235px 50px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.aboutUs p {
+    margin: 0 0 25px 0;
+}
+.apply {
+    width: 250px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    background: url(../img/background.png);
+    margin: 0 auto;
+
+    animation-duration: 1s;
+    animation-name: apply;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes apply {
+    from {
+    color: black;
+    }
+
+    to {
+        color: white;
+    }
+}
+.apply:hover {
+    background: url(../img/Gold.jpg) -320px 250px;
+    animation-name: a;
+}
+.aboutWork {
+    display: flex;
+    flex-direction: column;
+    color: red;
+    position: relative;
+    margin-bottom: 70px;
+    background: url("../img/girl2.jpg") no-repeat center;
+}
+h1 {
+    width: 530px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 0;
+    font-size: 35px;
+    background: url(../img/Gold.jpg) -1185px 200px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.colWrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.colLeft {
+    width: 40%;
+}
+.colRight {
+    width: 40%;
+    text-align: right;
+}
+.position {
+    color: white;
+}
+.position p {
+    margin: 0;
+}
+.logoText {
+    font-size: 24px;
+    background: url(../img/Gold.jpg) -320px 200px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.earn {
+    font-size: 22px;
+    background: url(../img/background.png) -370px 50px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.position {
+    margin-bottom: 25px;
+}
+.position h3 {
+    text-transform: uppercase;
+    margin: 0;
+    background: url(../img/background.png) -170px 50px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.advantages {
+    color: white;
+    margin-bottom: 70px;
+}
+.advantagesWrap {
+}
+.advantagesWrap h3 {
+    width: 530px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 0;
+    font-size: 35px;
+    background: url(../img/Gold.jpg) -1185px 200px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.advantagesItems {
+    padding: 0 30px;
+}
+.horizontalAdvantage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.advantage {
+    width: 325px;
+    padding: 5px;
+    margin-left: 100px;
+    font-size: 20px;
+    position: relative;
+}
+.advantage:before {
+    display: block;
+    position: absolute;
+    left: -95px;
+    top: 7px;
+    width: 90px;
+    height: 90px;
+    content: "";
+    background: url(../img/advatages.png) -121px -30px;
+}
+.advantage h4 {
+    text-transform: uppercase;
+    margin: 0 0 30px 0;
+    background: url(../img/background.png) -170px 50px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.advantage p {
+    margin: 0 0 50px 0;
+}
+.advPhoto1:before {
+    background: url(../img/advatages.png) -22px -150px;
+}
+.advPhoto2:before {
+    background: url(../img/advatages.png) -136px -145px;
+}
+.advPhoto3:before {
+    background: url(../img/advatages.png) -5px -375px;
+}
+.advPhoto4:before {
+    background: url(../img/advatages.png) -20px -30px;
+}
+.advPhoto5:before {
+    background: url(../img/advatages.png) -22px -275px;
+}
+.advPhoto6:before {
+    background: url(../img/advatages.png) -140px -280px;
+}
+.advPhoto7:before {
+    background: url(../img/advatages.png) -130px -390px;
+}
+.applyBtn {
+    margin-bottom: 100px;
+}
+.apply1 {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 20px;
+    font-size: 24px;
+}
+.apply1:hover {
+    background: url(../img/Gold.jpg) -200px 250px;
+    animation-name: a;
+}
+.interest {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.interestPadding {
+    width: 50%;
+    padding-top: 120px;
+}
+.interest h3 {
+    width: 123%;
+    margin: 0 0 55px;
+    font-size: 28px;
+}
+.interestWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25%;
+}
+.interestWidth {
+    width: 43%;
+    height: 100%;
+}
+.percent {
+    font-size: 55px;
+    font-weight: bold;
+}
+.goldenLady {
+    width: 50%;
+    height: auto;
+}
+
+.terms {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+.termsWrap {
+    text-align: center;
+    width: 40%;
+    padding: 155px 100px 0 20px;
+}
+.termsWrap h3 {
+    margin: 0 0 25px 0;
+    background: url(../img/background.png) -235px 50px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+}
+.girlHair {
+    width: 40%;
+    height: auto;
+}
+.form {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0 50px 100px;
+}
+.formWrap {
+    width: 45%;
+}
+.input {
+    border-color: dimgrey;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0 0 25px 0;
+}
+input {
+    width: 85%;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+}
+textarea {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    resize: none;
+}
+.experience {
+    border-color: dimgrey;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+    color: dimgrey;
+    font-size: 16px;
+    font-weight: bold;
+}
+.skill {
+    width: auto;
+    margin: 0 0 0 10px;
+}
+.formBtn {
+    display: block;
+    margin: 0 auto;
+}
+.contact {
+    width: 45%;
+    padding: 15px 50px 0 50px;
+    font-size: 20px;
+}
+@media(min-width: 0px) and (max-width: 1270px) {
+    .form {
+        flex-direction: column;
+        justify-content: center;
+    }
+    form {
+        width: 70%;
+    }
+    .formWrap {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        order: 2;
+    }
+    .contact {
+        width: auto;
+        order: 1;
+        text-align: center;
+    }
+}
+@media(min-width: 0px) and (max-width: 700px) {
+    .form {
+        padding: 0 25px 100px;
+    }
+    form {
+        width: 100%;
+    }
+    .contact {
+        padding: 15px 25px 0;
+    }
+}
+.contact h2 {
+    margin: 0 0 25px;
+}
+.telegram {
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    background: url("../img/favicon.png") -85px -14px no-repeat;
+
+    animation-duration: 1s;
+    animation-name: telegram;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes telegram {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.telegram:hover {
+    background: url("../img/favicon.png") -85px -58px no-repeat;
+    animation-name: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 15px;
+    background: #121213;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: dimgrey;
+}
+.footer .connectUs:hover {
+    color: deepskyblue;
+}
+.footerBorder {
+    border-bottom: 1px solid #444444;
+    margin: 25px auto;
+    width: 700px;
+}
+.footerWrap {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footerWrap ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footerWrap a {
+    color: white;
+}
+.aboutBMS {
+    flex: 1 0 calc(5%/3);
+}
+.ourServices {
+    flex: 1 0 calc(5%/3);
+    padding: 0 20px 0 0;
+}
+.atention {
+    flex: 1 0 calc(90%/3);
+}
+.footerNetwork {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footerNetwork li {
+    margin-right: 20px;
+}
+.footerPolicy {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3) {
+    .logo {
+        font-size: 90px;
+    }
+    .sideMenu {
+        margin-top: 20px;
+        width: 110px;
+        height: 90px;
+    }
+    .sideMenu div {
+        height: 15px;
+        margin-bottom: 15px;
+    }
+    .headerWrap {
+        padding: 70px 100px;
+    }
+    .navigation {
+        display: none;
+    }
+    .apply {
+        width: 550px;
+        padding: 25px 30px;
+        font-size: 45px;
+    }
+    .aboutUs {
+        font-size: 27px;
+    }
+    .aboutUsWrap {
+        background-size: cover;
+        margin-bottom: 75px;
+    }
+    .aboutUs h2 {
+        font-size: 54px;
+
+    }
+    .aboutUs h2 span {
+        font-size: 54px;
+    }
+    .aboutWork {
+        background: url("../img/girl2.jpg") repeat-y center;
+    }
+    .colWrap {
+        font-size: 34px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .colLeft {
+        width: auto;
+    }
+    .colRight {
+        width: auto;
+        text-align: center;
+    }
+    h1 {
+        width: auto;
+        font-size: 55px;
+        margin: 0 auto 55px;
+        background: url(../img/Gold.jpg) -1233px 325px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .logoText {
+        background: url(../img/Gold.jpg) -7px 217px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .girlWrap {
+        display: none;
+    }
+    .mainLogoImgWrap {
+        margin-bottom: 55px;
+    }
+    .advantagesWrap h3 {
+        font-size: 55px;
+        width: auto;
+        background: url(../img/Gold.jpg) -1102px 275px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .horizontalAdvantage {
+        flex-direction: column;
+    }
+    .advantage {
+        width: auto;
+    }
+    .goldenLady {
+        display: none;
+    }
+    .interestWrap {
+        margin: 0;
+    }
+    .interest {
+        display: block;
+    }
+    .interestPadding {
+        width: auto;
+        padding: 0 25px;
+    }
+    .interest h3 {
+        width: auto;
+        font-size: 55px;
+    }
+    .interestWidth {
+        width: 50%;
+    }
+    .interestWidth p {
+        font-size: 35px;
+        padding: 0 40px;
+    }
+    .interestWidth span {
+        font-size: 80px;
+    }
+    .girlHair {
+        display: none;
+    }
+    .termsWrap {
+        padding: 0 55px;
+        width: auto;
+    }
+    .earn {
+        display: block;
+        font-size: 55px;
+        margin-bottom: 25px;
+    }
+    .telegram {
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 25px;
+        background: url(../img/telegram.png) 17px 27px no-repeat;
+        border: solid 17px deepskyblue;
+        border-radius: 50%;
+        padding: 25px;
+    }
+    .formWrap {
+        display: block;
+        text-align: center;
+    }
+    form {
+        width: auto;
+        font-size: 55px;
+    }
+    .form {
+        padding: 0 70px;
+    }
+    input {
+        height: 100px;
+        font-size: 55px;
+        text-align: center;
+    }
+    .input {
+        border-width: 5px;
+    }
+    .experience {
+        font-size: 55px;
+        border-width: 5px;
+        height: 200px;
+        padding-top: 40px;
+    }
+    .skill {
+        display: inline-block;
+        font-size: 55px;
+        height: auto;
+        margin: 0 50px;
+        transform: scale(7);
+        -ms-transform: scale(7);
+        -webkit-transform: scale(7);
+        padding: 10px;
+    }
+    .sms {
+        height: 100px;
+        font-size: 55px;
+        text-align: center;
+    }
+    .formBtn {
+        margin-top: 50px;
+    }
+    .footerWrap {
+        width: auto;
+        padding: 70px;
+        text-align: center;
+    }
+    .aboutBMS {
+        display: none;
+    }
+    .ourServices {
+        display: none;
+    }
+    .atention p {
+        font-size: 25px;
+        padding-bottom: 25px;
+        border-bottom: solid 5px dimgrey;
+    }
+    .city {
+        font-size: 45px;
+    }
+    .connectUs {
+        display: block;
+        font-size: 45px;
+        margin-bottom: 55px;
+    }
+    .mail {
+        display: block;
+        padding-bottom: 25px;
+        font-size: 45px;
+        border-bottom: solid 5px dimgrey;
+    }
+    .footerNetwork {
+        font-size: 45px;
+        border-bottom: solid 5px dimgrey;
+        padding-bottom: 25px;
+    }
+    .license {
+        font-size: 37px;
+        padding: 0 50px;
+    }
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .logo {
+        font-size: 90px;
+    }
+    .sideMenu {
+        margin-top: 20px;
+        width: 110px;
+        height: 90px;
+    }
+    .sideMenu div {
+        height: 15px;
+        margin-bottom: 15px;
+    }
+    .headerWrap {
+        padding: 70px 100px;
+    }
+    .navigation {
+        display: none;
+    }
+    .apply {
+        width: 550px;
+        padding: 25px 30px;
+        font-size: 45px;
+    }
+    .aboutUs {
+        font-size: 27px;
+    }
+    .aboutUsWrap {
+        background-size: cover;
+        margin-bottom: 75px;
+    }
+    .aboutUs h2 {
+        font-size: 54px;
+
+    }
+    .aboutUs h2 span {
+        font-size: 54px;
+    }
+    .aboutWork {
+        background: url("../img/girl2.jpg") repeat-y center;
+    }
+    .colWrap {
+        font-size: 34px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .colLeft {
+        width: auto;
+    }
+    .colRight {
+        width: auto;
+        text-align: center;
+    }
+    h1 {
+        width: auto;
+        font-size: 55px;
+        margin: 0 auto 55px;
+        background: url(../img/Gold.jpg) -1233px 325px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .logoText {
+        background: url(../img/Gold.jpg) -7px 217px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .girlWrap {
+        display: none;
+    }
+    .mainLogoImgWrap {
+        margin-bottom: 55px;
+    }
+    .advantagesWrap h3 {
+        font-size: 55px;
+        width: auto;
+        background: url(../img/Gold.jpg) -1102px 275px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .horizontalAdvantage {
+        flex-direction: column;
+    }
+    .advantage {
+        width: auto;
+    }
+    .goldenLady {
+        display: none;
+    }
+    .interestWrap {
+        margin: 0;
+    }
+    .interest {
+        display: block;
+    }
+    .interestPadding {
+        width: auto;
+        padding: 0 25px;
+    }
+    .interest h3 {
+        width: auto;
+        font-size: 55px;
+    }
+    .interestWidth {
+        width: 50%;
+    }
+    .interestWidth p {
+        font-size: 35px;
+        padding: 0 40px;
+    }
+    .interestWidth span {
+        font-size: 80px;
+    }
+    .girlHair {
+        display: none;
+    }
+    .termsWrap {
+        padding: 0 55px;
+        width: auto;
+    }
+    .earn {
+        display: block;
+        font-size: 55px;
+        margin-bottom: 25px;
+    }
+    .telegram {
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 25px;
+        background: url(../img/telegram.png) 17px 27px no-repeat;
+        border: solid 17px deepskyblue;
+        border-radius: 50%;
+        padding: 25px;
+    }
+    .formWrap {
+        display: block;
+        text-align: center;
+    }
+    form {
+        width: auto;
+        font-size: 55px;
+    }
+    .form {
+        padding: 0 70px;
+    }
+    input {
+        height: 100px;
+        font-size: 55px;
+        text-align: center;
+    }
+    .input {
+        border-width: 5px;
+    }
+    .experience {
+        font-size: 55px;
+        border-width: 5px;
+        height: 200px;
+        padding-top: 40px;
+     }
+    .skill {
+        display: inline-block;
+        font-size: 55px;
+        height: auto;
+        margin: 0 50px;
+        transform: scale(7);
+        -ms-transform: scale(7);
+        -webkit-transform: scale(7);
+        padding: 10px;
+    }
+    .sms {
+        height: 100px;
+        font-size: 55px;
+        text-align: center;
+    }
+    .formBtn {
+        margin-top: 50px;
+    }
+    .footerWrap {
+        width: auto;
+        padding: 70px;
+        text-align: center;
+    }
+    .aboutBMS {
+        display: none;
+    }
+    .ourServices {
+        display: none;
+    }
+    .atention p {
+        font-size: 25px;
+        padding-bottom: 25px;
+        border-bottom: solid 5px dimgrey;
+    }
+    .city {
+        font-size: 45px;
+    }
+    .connectUs {
+        display: block;
+        font-size: 45px;
+        margin-bottom: 55px;
+    }
+    .mail {
+        display: block;
+        padding-bottom: 25px;
+        font-size: 45px;
+        border-bottom: solid 5px dimgrey;
+    }
+    .footerNetwork {
+        font-size: 45px;
+        border-bottom: solid 5px dimgrey;
+        padding-bottom: 25px;
+    }
+    .license {
+        font-size: 37px;
+        padding: 0 50px;
+    }
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media(min-width: 0px) and (max-width: 850px) {
+    .navigation {
+        display: none;
+    }
+}
+

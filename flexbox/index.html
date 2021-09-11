@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>flexbox</title>
+		<link rel="stylesheet" href="css/all.css">
+	</head>
+	<body>
+		<div class="properties">
+			<h1>Свойства flexbox для контейнера</h1>
+			<ul>
+				<li>display: flex; display: inline-flex; - Активация flexbox (блочным или линейным)</li>
+				<li>1)flex-direction: row; - элементы <a>УКЛАДЫВАЮТСЯ</a> в ряд слева направо</li>
+				<li>2)flex-direction: row-reverse; - элементы <a>УКЛАДЫВАЮТСЯ</a> в ряд справа налево</li>
+				<li>3)flex-direction: column; - элементы укладываются в колонку сверху вниз</li>
+				<li>4)flex-direction: column-reverse; - элементы укладываются в колонку снизу вверх</li>
+				<li>5)flex-wrap: wrap; - элементы отображаются в несколько рядов, если потребуется, слева направо и сверху вниз. <a>По умолчанию</a> (flex-wrap: nowrap; - элементы сужаются, чтобы уместиться в ширину flex-контейнера)</li>
+				<li>6)flex-wrap: wrap-reverse; - элементы отображаются в несколько рядов, если потребуется, слева направо и снизу вверх. <a>По умолчанию</a> (flex-wrap: nowrap; - элементы сужаются, чтобы уместиться в ширину flex-контейнера)</li>
+				<li>flex-flow - Это свойство – сокращённая запись для свойств flex-direction и flex-wrap. Пример: flex-flow: row-reverse wrap-reverse;</li>
+				<li>7)justify-content: flex-start; - элементы <a>ВЫРАВНИВАЮТСЯ</a> по левой стороне flex-контейнера в контексте</li>
+				<li>8)justify-content: flex-end; - элементы <a>ВЫРАВНИВАЮТСЯ</a> по правой стороне flex-контейнера в контексте</li>
+				<li>9)justify-content: center; - элементы выравниваются по центру flex-контейнера</li>
+				<li>10)justify-content: space-between; - элементы отображаются с равным интервалом между ними, а первый и последний flex-элементы выравниваются по краям flex-контейнера</li>
+				<li>11)justify-content: space-around; - элементы отображаются с равным интервалом вокруг каждого flex-элемента, включая первый и последний flex-элементы</li>
+				<li>12)align-items: stretch; - элементы заполняют всю высоту (или ширину) от поперечного начала к поперечному концу flex-контейнера. <a>ЭТО ЗНАЧЕНИЕ СТОИТ ПО УЛОЛЧАНИЮ</a></li>
+				<li>13)align-items: flex-start; - элементы прижимаются к поперечному началу flex-контейнера</li>
+				<li>14)align-items: flex-end; - элементы прижимаются к поперечному концу flex-контейнера</li>
+				<li>15)align-items: center; - элементы укладываются по центру поперечной оси flex-контейнера</li>
+				<li>16)align-items: baseline; - элементы выравниваются по базовой линии</li>
+				<li>17)align-content: stretch; - элементы отображаются с распределённым пространством после каждого ряда flex-элементов</li>
+				<li>18)align-content: flex-start; - элементы прижаты к поперечному началу flex-контейнера</li>
+				<li>19)align-content: flex-end; - элементы прижаты к поперечному концу flex-контейнера</li>
+				<li>20)align-content: center; - элементов укладываются по центру поперечной оси flex-контейнера</li>
+				<li>21)align-content: space-between; - элементов отображаются с равным интервалом между ними, а первый и последний ряд выравнивается по краям flex-контейнера</li>
+				<li>22)align-content: space-around; - элементы отображаются с равным интервалом вокруг каждого ряда flex-элементов</li>
+			</ul>
+			<h1>1</h1>
+			<div class="flex-container flex">
+				<div class="flex-element">1</div>
+				<div class="flex-element">2</div>
+				<div class="flex-element">3</div>
+				<div class="flex-element">4</div>
+				<div class="flex-element">5</div>
+				<div class="flex-element">6</div>
+				<div class="flex-element">7</div>
+				<div class="flex-element">8</div>
+				<div class="flex-element">9</div>
+				<div class="flex-element">10</div>
+				<div class="flex-element">11</div>
+				<div class="flex-element">12</div>
+			</div>
+		</div>
+		<div>
+			<h1>2</h1>
+			<div class="flex-container2 flex">
+				<div class="flex-element">1</div>
+				<div class="flex-element">2</div>
+				<div class="flex-element">3</div>
+				<div class="flex-element">4</div>
+				<div class="flex-element">5</div>
+				<div class="flex-element">6</div>
+				<div class="flex-element">7</div>
+				<div class="flex-element">8</div>
+				<div class="flex-element">9</div>
+				<div class="flex-element">10</div>
+				<div class="flex-element">11</div>
+				<div class="flex-element">12</div>
+			</div>
+		</div>
+		<div>
+		<h1>3</h1>
+			<div class="flex-container3 flex">
+				<div class="flex-element">1</div>
+				<div class="flex-element">2</div>
+				<div class="flex-element">3</div>
+				<div class="flex-element">4</div>
+				<div class="flex-element">5</div>
+				<div class="flex-element">6</div>
+				<div class="flex-element">7</div>
+				<div class="flex-element">8</div>
+				<div class="flex-element">9</div>
+				<div class="flex-element">10</div>
+				<div class="flex-element">11</div>
+				<div class="flex-element">12</div>
+			</div>
+		</div>
+		<div>
+		<h1>4</h1>
+			<div class="flex-container4 flex">
+				<div class="flex-element">1</div>
+				<div class="flex-element">2</div>
+				<div class="flex-element">3</div>
+				<div class="flex-element">4</div>
+				<div class="flex-element">5</div>
+				<div class="flex-element">6</div>
+				<div class="flex-element">7</div>
+				<div class="flex-element">8</div>
+				<div class="flex-element">9</div>
+				<div class="flex-element">10</div>
+				<div class="flex-element">11</div>
+				<div class="flex-element">12</div>
+			</div>
+		</div>
+		<div>
+		<h1>5</h1>
+			<div class="flex-container5 flex">
+				<div class="flex-element">1</div>
+				<div class="flex-element">2</div>
+				<div class="flex-element">3</div>
+				<div class="flex-element">4</div>
+				<div class="flex-element">5</div>
+				<div class="flex-element">6</div>
+				<div class="flex-element">7</div>
+				<div class="flex-element">8</div>
+				<div class="flex-element">9</div>
+				<div class="flex-element">10</div>
+				<div class="flex-element">11</div>
+				<div class="flex-element">12</div>
+			</div>
+		</div>
+		<div>
+		<h1>6</h1>
+			<div class="flex-container6 flex">
+				<div class="flex-element">1</div>
+				<div class="flex-element">2</div>
+				<div class="flex-element">3</div>
+				<div class="flex-element">4</div>
+				<div class="flex-element">5</div>
+				<div class="flex-element">6</div>
+				<div class="flex-element">7</div>
+				<div class="flex-element">8</div>
+				<div class="flex-element">9</div>
+				<div class="flex-element">10</div>
+				<div class="flex-element">11</div>
+				<div class="flex-element">12</div>
+			</div>
+		</div>
+		<div>
+		<h1>7</h1>
+			<div class="flex-container7 flex">
+				<div class="flex-element">1</div>
+				<div class="flex-element">2</div>
+				<div class="flex-element">3</div>
+				<div class="flex-element">4</div>
+				<div class="flex-element">5</div>
+				<div class="flex-element">6</div>
+				<div class="flex-element">7</div>
+				<div class="flex-element">8</div>
+				<div class="flex-element">9</div>
+				<div class="flex-element">10</div>
+				<div class="flex-element">11</div>
+				<div class="flex-element">12</div>
+			</div>
+		</div>
+		<div>
+		<h1>8</h1>
+			<div class="flex-container8 flex">
+				<div class="flex-element">1</div>
+				<div class="flex-element">2</div>
+				<div class="flex-element">3</div>
+				<div class="flex-element">4</div>
+				<div class="flex-element">5</div>
+				<div class="flex-element">6</div>
+				<div class="flex-element">7</div>
+				<div class="flex-element">8</div>
+				<div class="flex-element">9</div>
+				<div class="flex-element">10</div>
+				<div class="flex-element">11</div>
+				<div class="flex-element">12</div>
+			</div>
+		</div>
+		<div>
+		<h1>9</h1>
+			<div class="flex-container9 flex">
+				<div class="flex-element">1</div>
+				<div class="flex-element">2</div>
+				<div class="flex-element">3</div>
+				<div class="flex-element">4</div>
+				<div class="flex-element">5</div>
+				<div class="flex-element">6</div>
+				<div class="flex-element">7</div>
+				<div class="flex-element">8</div>
+				<div class="flex-element">9</div>
+				<div class="flex-element">10</div>
+				<div class="flex-element">11</div>
+				<div class="flex-element">12</div>
+			</div>
+		</div>
+		<div>
+		<h1>10</h1>
+			<div class="flex-container10 flex">
+				<div class="flex-element">1</div>
+				<div class="flex-element">2</div>
+				<div class="flex-element">3</div>
+				<div class="flex-element">4</div>
+				<div class="flex-element">5</div>
+				<div class="flex-element">6</div>
+				<div class="flex-element">7</div>
+				<div class="flex-element">8</div>
+				<div class="flex-element">9</div>
+				<div class="flex-element">10</div>
+				<div class="flex-element">11</div>
+				<div class="flex-element">12</div>
+			</div>
+		</div>
+		<div>
+		<h1>11</h1>
+			<div class="flex-container11 flex">
+				<div class="flex-element">1</div>
+				<div class="flex-element">2</div>
+				<div class="flex-element">3</div>
+				<div class="flex-element">4</div>
+				<div class="flex-element">5</div>
+				<div class="flex-element">6</div>
+				<div class="flex-element">7</div>
+				<div class="flex-element">8</div>
+				<div class="flex-element">9</div>
+				<div class="flex-element">10</div>
+				<div class="flex-element">11</div>
+				<div class="flex-element">12</div>
+			</div>
+		</div>
+		<div>
+		<h1>12</h1>
+			<div class="flex-container12 flex container-height">
+				<div class="flex-element">1</div>
+				<div class="flex-element">2</div>
+				<div class="flex-element">3</div>
+				<div class="flex-element">4</div>
+				<div class="flex-element">5</div>
+				<div class="flex-element">6</div>
+				<div class="flex-element">7</div>
+				<div class="flex-element">8</div>
+				<div class="flex-element">9</div>
+				<div class="flex-element">10</div>
+				<div class="flex-element">11</div>
+				<div class="flex-element">12</div>
+			</div>
+		</div>
+		<div>
+		<h1>13</h1>
+			<div class="flex-container13 flex container-height">
+				<div class="flex-element">1</div>
+				<div class="flex-element">2</div>
+				<div class="flex-element">3</div>
+				<div class="flex-element">4</div>
+				<div class="flex-element">5</div>
+				<div class="flex-element">6</div>
+				<div class="flex-element">7</div>
+				<div class="flex-element">8</div>
+				<div class="flex-element">9</div>
+				<div class="flex-element">10</div>
+				<div class="flex-element">11</div>
+				<div class="flex-element">12</div>
+			</div>
+		</div>
+		<div>
+		<h1>14</h1>
+			<div class="flex-container14 flex container-height">
+				<div class="flex-element">1</div>
+				<div class="flex-element">2</div>
+				<div class="flex-element">3</div>
+				<div class="flex-element">4</div>
+				<div class="flex-element">5</div>
+				<div class="flex-element">6</div>
+				<div class="flex-element">7</div>
+				<div class="flex-element">8</div>
+				<div class="flex-element">9</div>
+				<div class="flex-element">10</div>
+				<div class="flex-element">11</div>
+				<div class="flex-element">12</div>
+			</div>
+		</div>
+		<div>
+		<h1>15</h1>
+			<div class="flex-container15 flex container-height">
+				<div class="flex-element">1</div>
+				<div class="flex-element">2</div>
+				<div class="flex-element">3</div>
+				<div class="flex-element">4</div>
+				<div class="flex-element">5</div>
+				<div class="flex-element">6</div>
+				<div class="flex-element">7</div>
+				<div class="flex-element">8</div>
+				<div class="flex-element">9</div>
+				<div class="flex-element">10</div>
+				<div class="flex-element">11</div>
+				<div class="flex-element">12</div>
+			</div>
+		</div>
+		<div>
+		<h1>16</h1>
+		<div class="flex-container16 flex container-height">
+			<div class="flex-element size1">Hello</div>
+			<div class="flex-element">2</div>
+			<div class="flex-element size3">okey</div>
+			<div class="flex-element">4</div>
+			<div class="flex-element size5">size</div>
+			<div class="flex-element">6</div>
+			<div class="flex-element">7</div>
+			<div class="flex-element size8">body</div>
+			<div class="flex-element">9</div>
+			<div class="flex-element">10</div>
+			<div class="flex-element size11">888</div>
+			<div class="flex-element">12</div>
+		</div>
+	</div>
+	<div>
+		<h1>17</h1>
+		<div class="flex-container17 flex height-wrap">
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+		</div>
+	</div>
+	<div>
+		<h1>18</h1>
+		<div class="flex-container18 flex height-wrap">
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+		</div>
+	</div>
+	<div>
+		<h1>19</h1>
+		<div class="flex-container19 flex height-wrap">
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+		</div>
+	</div>
+	<div>
+		<h1>20</h1>
+		<div class="flex-container20 flex height-wrap">
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+		</div>
+	</div>
+	<div>
+		<h1>21</h1>
+		<div class="flex-container21 flex height-wrap">
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+		</div>
+	</div>
+		<h1>22</h1>
+		<div class="flex-container22 flex height-wrap">
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+			<div class="flex-element2">1</div>
+			<div class="flex-element2">2</div>
+			<div class="flex-element2">3</div>
+			<div class="flex-element2">4</div>
+			<div class="flex-element2">5</div>
+			<div class="flex-element2">6</div>
+			<div class="flex-element2">7</div>
+			<div class="flex-element2">8</div>
+			<div class="flex-element2">9</div>
+			<div class="flex-element2">10</div>
+			<div class="flex-element2">11</div>
+			<div class="flex-element2">12</div>
+		</div>
+		<div class="properties">
+			<h1>Свойства flexbox для элемента</h1>
+			<ul>
+				<li>1)order: <целое число>; - элементы могут быть упорядочены при помощи этого простого свойства, без изменения структуры HTML-кода</li>
+				<li>2)flex-grow: <число>; - задаёт элементам размер относительно друг друга, если число одинаковое, тогда и элементы будут одного размера</li>
+				<li>3)flex-shrink: <число>; - указывает фактор гибкого растягивания, который определяет, насколько будет сужен flex-элемент относительно оставшихся flex-элементов во flex-контейнере при распределении отрицательного свободного пространства <a>(отрицательные значения игнорируются)</a>Значение по умолчанию: 1</li>
+				<li>4)flex-basis: <ширина>px; - Это свойство принимает те же самые значения, что width and height, и указывает исходный главный размер flex-элемента</li>
+				<li>flex - Это свойство сокращённая запись для свойств flex-grow, flex-shrink и flex-basis. Наряду с другими значениями, его можно установить также в auto (1 1 auto) и none (0 0 auto)<a>Пример: flex: -1 0 200px; flex: -1 0 auto; По умолчанию - flex: 0 1 auto;</a></li>
+				<li>5)align-self: auto | flex-start | flex-end | center | baseline | stretch; - переопределяет выравнивание по умолчанию (или то, что указано в align-items) для отдельных flex-элементов</li>
+			</ul>
+			<h1>1</h1>
+			<div class="flex-container23 flex">
+				<div class="flex-element element-properties1">1 <span>order: 5</span></div>
+				<div class="flex-element element-properties2">2 <span>order: -1</span></div>
+				<div class="flex-element element-properties3">3 <span>order: 2</span></div>
+				<div class="flex-element element-properties4">4 <span>order: 0</span></div>
+				<div class="flex-element element-properties5">5 <span>order: 1</span></div>
+			</div>
+		</div>
+		<div>
+			<h1>2</h1>
+			<div class="flex-container24 flex">
+				<div class="flex-element element-properties1">1 <span>flex-grow: 1</span></div>
+				<div class="flex-element element-properties2">2 <span>flex-grow: 2</span></div>
+				<div class="flex-element element-properties3">3 <span>flex-grow: 3</span></div>
+				<div class="flex-element element-properties4">4 <span>flex-grow: 1</span></div>
+				<div class="flex-element element-properties5">5 <span>flex-grow: 1</span></div>
+			</div>
+			<div class="flex-container24 flex flex-grow">
+				<div class="flex-element element-properties1">1 <span>flex-grow: 1</span></div>
+				<div class="flex-element element-properties2">2 <span>flex-grow: 1</span></div>
+				<div class="flex-element element-properties3">3 <span>flex-grow: 1</span></div>
+				<div class="flex-element element-properties4">4 <span>flex-grow: 1</span></div>
+				<div class="flex-element element-properties5">5 <span>flex-grow: 1</span></div>
+			</div>
+		</div>
+		<div>
+			<h1>3</h1>
+			<div class="flex-container25 flex flex-shrink">
+				<div class="flex-element element-properties1">1 <span>flex-shrink: 1</span></div>
+				<div class="flex-element element-properties2">2 <span>flex-shrink: 0</span></div>
+				<div class="flex-element element-properties3">3 <span>flex-shrink: 1</span></div>
+				<div class="flex-element element-properties4">4 <span>flex-shrink: 1</span></div>
+				<div class="flex-element element-properties5">5 <span>flex-shrink: 1</span></div>
+				
+			</div>
+		</div>
+		<div>
+			<h1>4</h1>
+			<div class="flex-container26 flex flex-basis">
+				<div class="flex-element element-properties1">1 <span>flex-shrink: auto</span></div>
+				<div class="flex-element element-properties2">2 <span>flex-shrink: 500px</span></div>
+				<div class="flex-element element-properties3">3 <span>flex-shrink: auto</span></div>
+				<div class="flex-element element-properties4">4 <span>flex-shrink: auto</span></div>
+				<div class="flex-element element-properties5">5 <span>flex-shrink: auto</span></div>
+				
+			</div>
+		</div>
+		<div>
+			<h1>5</h1>
+			<div class="flex-container27 flex align-self">
+				<div class="flex-element element-properties1">1 <span>align-self: auto</span></div>
+				<div class="flex-element element-properties2">2 <span>align-self: flex-start</span></div>
+				<div class="flex-element element-properties3">3 <span>align-self: flex-end</span></div>
+				<div class="flex-element element-properties4">4 <span>align-self: center </span></div>
+				<div class="flex-element element-properties5">5 <span>align-self: baseline </span></div>
+				<div class="flex-element element-properties6">6 <span>align-self: stretch </span></div>
+			</div>
+		</div>
+	</body>
+</html>

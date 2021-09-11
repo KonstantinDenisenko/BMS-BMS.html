@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+	font-size: 14px;
+	color: #626262;
+}
+.main {
+	display: flex;
+	height: 300px;
+	1width: 650px;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	1flex-shrink: 0;
+	flex-basis: 300px;
+}
+.header {
+	background-color: red;
+	color: black;
+	flex-basis: 300px;
+}
+.footer {
+	background-color: green;
+	color: black;
+}
+.col1 {
+	background-color: blue;
+	color: black;
+	flex-basis: 150px;
+}
+.col2 {
+	background-color: yellow;
+	color: black;
+	flex-basis: 150px;
+}
+.col3 {
+	background-color: green;
+	color: black;
+	1flex-shrink: 2;
+}
