@@ -711,7 +711,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
     .termsWrap {
         padding: 0 55px;
         width: auto;
-        font-size: 40px;
+        font-size: 45px;
     }
     .termsWrap h3 {
         font-size: 55px;
@@ -762,9 +762,9 @@ and (-webkit-min-device-pixel-ratio: 3) {
         font-size: 60px;
         height: auto;
         margin: 0 50px;
-        transform: scale(2);
-        -ms-transform: scale(2);
-        -webkit-transform: scale(2);
+        transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
         padding: 10px;
     }
     .sms {
@@ -942,7 +942,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .termsWrap {
         padding: 0 55px;
         width: auto;
-        font-size: 40px;
+        font-size: 45px;
     }
     .termsWrap h3 {
         font-size: 55px;
@@ -993,9 +993,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-size: 60px;
         height: auto;
         margin: 0 50px;
-        transform: scale(2);
-        -ms-transform: scale(2);
-        -webkit-transform: scale(2);
+        transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
         padding: 10px;
     }
     .sms {

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9356976a-421c-443c-921d-a35cff99a12d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/css/BMS.css" afterPath="$PROJECT_DIR$/css/BMS.css" />
-      <change beforePath="$PROJECT_DIR$/flexbox/token.txt" afterPath="$PROJECT_DIR$/flexbox/token.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="BMS.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/BMS.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="997" column="23" lean-forward="false" selection-start-line="997" selection-start-column="23" selection-end-line="997" selection-end-column="23" />
+            <state relative-caret-position="391">
+              <caret line="943" column="20" lean-forward="true" selection-start-line="943" selection-start-column="20" selection-end-line="943" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -196,7 +195,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126771000" />
+    <option name="totallyTimeSpent" value="127146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="892" y="39" width="1010" height="955" extended-state="0" />
@@ -636,8 +635,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/BMS.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="997" column="23" lean-forward="false" selection-start-line="997" selection-start-column="23" selection-end-line="997" selection-end-column="23" />
+        <state relative-caret-position="391">
+          <caret line="943" column="20" lean-forward="true" selection-start-line="943" selection-start-column="20" selection-end-line="943" selection-end-column="20" />
           <folding />
         </state>
       </provider>
