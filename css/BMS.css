@@ -755,16 +755,16 @@ and (-webkit-min-device-pixel-ratio: 3) {
         font-size: 60px;
         border-width: 5px;
         height: 200px;
-        padding-top: 40px;
+        padding: 40px 40px;
     }
     .skill {
         display: inline-block;
         font-size: 60px;
         height: auto;
         margin: 0 50px;
-        transform: scale(1);
-        -ms-transform: scale(1);
-        -webkit-transform: scale(1);
+        /*transform: scale(1);*/
+        /*-ms-transform: scale(1);*/
+        /*-webkit-transform: scale(1);*/
         padding: 10px;
     }
     .sms {
@@ -986,16 +986,16 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-size: 60px;
         border-width: 5px;
         height: 200px;
-        padding-top: 40px;
+        padding: 40px 40px;
     }
     .skill {
         display: inline-block;
         font-size: 60px;
         height: auto;
         margin: 0 50px;
-        transform: scale(1);
-        -ms-transform: scale(1);
-        -webkit-transform: scale(1);
+        /*transform: scale(1);*/
+        /*-ms-transform: scale(1);*/
+        /*-webkit-transform: scale(1);*/
         padding: 10px;
     }
     .sms {
