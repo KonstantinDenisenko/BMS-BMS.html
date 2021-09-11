@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9356976a-421c-443c-921d-a35cff99a12d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/BMS.html" afterPath="$PROJECT_DIR$/BMS.html" />
       <change beforePath="$PROJECT_DIR$/css/BMS.css" afterPath="$PROJECT_DIR$/css/BMS.css" />
-      <change beforePath="$PROJECT_DIR$/flexbox/token.txt" afterPath="$PROJECT_DIR$/flexbox/token.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BMS.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BMS.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BMS.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -29,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BMS.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BMS.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/BMS.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="988" column="26" lean-forward="false" selection-start-line="988" selection-start-column="26" selection-end-line="988" selection-end-column="26" />
+            <state relative-caret-position="408">
+              <caret line="777" column="24" lean-forward="true" selection-start-line="777" selection-start-column="24" selection-end-line="777" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -200,7 +197,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128086000" />
+    <option name="totallyTimeSpent" value="128373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="892" y="39" width="1010" height="955" extended-state="0" />
@@ -630,18 +627,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/BMS.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="988" column="26" lean-forward="false" selection-start-line="988" selection-start-column="26" selection-end-line="988" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BMS.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="186" column="43" lean-forward="false" selection-start-line="186" selection-start-column="43" selection-end-line="186" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/BMS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="777" column="24" lean-forward="true" selection-start-line="777" selection-start-column="24" selection-end-line="777" selection-end-column="24" />
           <folding />
         </state>
       </provider>
