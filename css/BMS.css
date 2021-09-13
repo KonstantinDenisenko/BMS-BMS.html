@@ -738,6 +738,9 @@ and (-webkit-min-device-pixel-ratio: 3) {
     .horizontalAdvantage {
         flex-direction: column;
     }
+    .colWrap p {
+        font-size: 45px;
+    }
     .advantage {
         width: auto;
         font-size: 45px;
@@ -994,6 +997,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     .horizontalAdvantage {
         flex-direction: column;
+    }
+    .colWrap p {
+        font-size: 45px;
     }
     .advantage {
         width: auto;
