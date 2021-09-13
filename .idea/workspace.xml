@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/BMS.html" afterPath="$PROJECT_DIR$/BMS.html" />
       <change beforePath="$PROJECT_DIR$/css/BMS.css" afterPath="$PROJECT_DIR$/css/BMS.css" />
-      <change beforePath="$PROJECT_DIR$/img/Logo BMS - копия.jpg" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +21,8 @@
       <file leaf-file-name="BMS.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BMS.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="33">
+              <caret line="218" column="12" lean-forward="false" selection-start-line="218" selection-start-column="12" selection-end-line="218" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -32,8 +31,8 @@
       <file leaf-file-name="BMS.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/BMS.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="391">
+              <caret line="1136" column="24" lean-forward="true" selection-start-line="1136" selection-start-column="24" selection-end-line="1136" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -42,7 +41,7 @@
       <file leaf-file-name="start-page.html" pinned="false" current-in-tab="false">
         <entry file="file://D:/dltort/DenisenkoKonstantin.github.io/start-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
+            <state relative-caret-position="17">
               <caret line="60" column="56" lean-forward="false" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="56" />
               <folding />
             </state>
@@ -101,6 +100,10 @@
       <find>.footerWrap</find>
       <find>.logo</find>
       <find>before</find>
+      <find>.aboutWork</find>
+      <find>.footerNetwork</find>
+      <find>.atention</find>
+      <find>.connectUs</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,9 +124,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="892" />
+    <option name="x" value="642" />
     <option name="y" value="39" />
-    <option name="width" value="935" />
+    <option name="width" value="1185" />
     <option name="height" value="955" />
   </component>
   <component name="ProjectView">
@@ -205,18 +208,18 @@
       <workItem from="1631301700135" duration="11537000" />
       <workItem from="1631352473854" duration="2207000" />
       <workItem from="1631391405978" duration="823000" />
-      <workItem from="1631558910374" duration="9846000" />
+      <workItem from="1631558910374" duration="12606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138826000" />
+    <option name="totallyTimeSpent" value="141586000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="892" y="39" width="935" height="955" extended-state="0" />
+    <frame x="642" y="39" width="1185" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07508161" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.059024807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32742316" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -615,14 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/dltort/DenisenkoKonstantin.github.io/start-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="56" lean-forward="false" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -630,18 +625,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/dltort/DenisenkoKonstantin.github.io/start-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="60" column="56" lean-forward="false" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BMS.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="33">
+          <caret line="218" column="12" lean-forward="false" selection-start-line="218" selection-start-column="12" selection-end-line="218" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/BMS.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="391">
+          <caret line="1136" column="24" lean-forward="true" selection-start-line="1136" selection-start-column="24" selection-end-line="1136" selection-end-column="24" />
           <folding />
         </state>
       </provider>
