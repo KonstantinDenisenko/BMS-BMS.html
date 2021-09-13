@@ -2,6 +2,7 @@ body {
     margin: 0;
     color: white;
     /*font-family: 'Oleo Script', cursive;*/
+    font-family: 'Playball', cursive;
 }
 .main {
     background: black;
@@ -25,26 +26,36 @@ body {
     }
 }
 .logo {
+    position: relative;
     padding: 0 5px 0 0;
-    //margin-right: 35px;
+    margin-left: 40px;
     font-size: 37px;
     font-weight: bold;
     background: url(../img/background.png) 155px 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-/*    font-family: 'Abril Fatface', cursive;
-    font-family: 'Oleo Script', cursive;
-    font-family: 'Playball', cursive;
-    font-family: 'Tourney', cursive;
-    font-family: 'Oleo Script', cursive;
-    font-family: 'Tourney', cursive;*/
+    /*1font-family: 'Playball', cursive;*/
+    /*1font-family: 'Tourney', cursive;*/
+    /*1font-family: 'Oleo Script', cursive;*/
+    /*1font-family: 'Tourney', cursive;*/
+    /*1font-family: 'Abril Fatface', cursive;*/
 }
 .logo:hover {
-    background: url(../img/Gold.jpg) -125px -125px;
-    -webkit-text-fill-color: unset;
-    border-radius: 50px;
-    padding: 0 5px 0;
     cursor: pointer;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.logo:before {
+    display: block;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    left: -55px;
+    content: "";
+    background: url("../img/logoTop.jpg") no-repeat;
+    background-size: contain;
 }
 .btn {
     font-size: 20px;
@@ -154,16 +165,17 @@ and (-webkit-min-device-pixel-ratio: 2) {
 .aboutUsWrap {
     display: flex;
     background: url(../img/Gold.jpg) no-repeat;
+    background-size: cover;
 }
 .aboutUs {
     width: 900px;
     margin: 0 auto;
-    padding: 18px 20px;
+    padding: 70px 20px;
     display: flex;
     flex-direction: column;
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
 }
 .aboutUs h2 {
     margin: 0 0 25px 0;
@@ -175,11 +187,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin: 0 0 25px 0;
 }
 .apply {
-    width: 250px;
+    width: 270px;
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 24px;
     padding: 5px 10px;
     border: none;
     border-radius: 50px;
@@ -227,7 +239,9 @@ h1 {
     justify-content: space-between;
     margin: 0 50px;
 }
-
+.colWrap p {
+    font-size: 18px;
+}
 .colLeft {
     width: 40%;
 }
@@ -241,8 +255,38 @@ h1 {
 .position p {
     margin: 0;
 }
+.aboutWorkPosition1 {
+
+}
+.aboutWorkPosition2 {
+    text-align: right;
+}
+.aboutWorkPosition3 {
+
+}
+.aboutWorkPosition4 {
+    text-align: right;
+}
+.aboutWorkPosition5 {
+
+}
+.aboutWorkPosition6 {
+
+}
+.aboutWorkPosition7 {
+    text-align: left;
+}
+.aboutWorkPosition8 {
+
+}
+.aboutWorkPosition9 {
+    text-align: left;
+}
+.aboutWorkPosition10 {
+
+}
 .logoText {
-    font-size: 24px;
+    font-size: 34px;
     background: url(../img/Gold.jpg) -320px 200px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -299,7 +343,7 @@ h1 {
 .advantage:before {
     display: block;
     position: absolute;
-    left: -95px;
+    left: -107px;
     top: 7px;
     width: 90px;
     height: 90px;
@@ -312,6 +356,7 @@ h1 {
     background: url(../img/background.png) -170px 50px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 1em;
 }
 .advantage p {
     margin: 0 0 50px 0;
@@ -355,7 +400,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     color: white;
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
     margin-bottom: 100px;
 }
@@ -390,8 +435,8 @@ h1 {
     display: flex;
     justify-content: space-between;
     color: white;
-    font-size: 20px;
-    margin-bottom: 70px;
+    font-size: 22px;
+    margin-bottom: 20px;
 }
 .termsWrap {
     text-align: center;
@@ -409,14 +454,20 @@ h1 {
     width: 40%;
     height: auto;
 }
+form {
+    width: 30%;
+}
 .form {
     display: flex;
-    justify-content: space-between;
+    /*1justify-content: space-between;*/
+    flex-direction: column;
+    justify-content: center;
     color: white;
     padding: 0 50px 100px;
 }
 .formWrap {
-    width: 45%;
+    display: flex;
+    justify-content: center;
 }
 .input {
     border-color: dimgrey;
@@ -459,11 +510,14 @@ textarea {
 .formBtn {
     display: block;
     margin: 0 auto;
+    width: auto;
+    padding: 10px 15px;
 }
 .contact {
-    width: 45%;
-    padding: 15px 50px 0 50px;
-    font-size: 20px;
+    justify-content: center;
+    padding: 50px 350px;
+    font-size: 22px;
+    text-align: center;
 }
 @media(min-width: 0px) and (max-width: 1270px) {
     .form {
@@ -541,16 +595,12 @@ textarea {
 .footer .connectUs:hover {
     color: deepskyblue;
 }
-.footerBorder {
-    border-bottom: 1px solid #444444;
-    margin: 25px auto;
-    width: 700px;
-}
 .footerWrap {
-    width: 700px;
-    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+    padding-bottom: 25px;
 }
 .footerWrap ul {
     list-style: none;
@@ -561,21 +611,26 @@ textarea {
     color: white;
 }
 .aboutBMS {
-    flex: 1 0 calc(5%/3);
+    1flex: 1 0 calc(30%/3);
+    width: 200px;
 }
 .ourServices {
-    flex: 1 0 calc(5%/3);
-    padding: 0 20px 0 0;
+    1flex: 1 0 calc(30%/3);
+    1padding: 0 20px 0 0;
+    width: 200px;
 }
 .atention {
-    flex: 1 0 calc(90%/3);
+    1flex: 1 0 calc(40%/3);
+    width: 400px;
 }
 .footerNetwork {
     display: flex;
     justify-content: center;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 30px 25px;
+    border-top: 1px solid dimgrey;
+    border-bottom: 1px solid dimgrey;
 }
 .footerNetwork li {
     margin-right: 20px;
@@ -584,7 +639,9 @@ textarea {
     text-align: center;
     margin-bottom: 25px;
 }
-
+.license {
+    padding-top: 25px;
+}
 /*/////////////////////////////////////////////////////////////////////////////////*/
 
 @media only screen
@@ -1071,5 +1128,57 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .navigation {
         display: none;
     }
+    h1 {
+        font-size: 1.5em;
+        width: 400px;
+    }
+    .advantagesWrap h3 {
+        font-size: 1.5em;
+        width: auto;
+    }
+    .girlHair {
+        display: none;
+    }
+    .termsWrap {
+        width: auto;
+        padding: 0 100px;
+    }
+    .goldenLady {
+        display: none;
+    }
+    .interestPadding {
+        width: auto;
+    }
+    .interestPadding h3 {
+        width: auto;
+    }
+    .interestWrap {
+        margin: 0;
+        padding: 0 30px;
+    }
 }
-
+@media(min-width: 1400px) and (max-width: 1600px) {
+    .contact {
+        padding: 50px 250px;
+    }
+}
+@media(min-width: 1200px) and (max-width: 1400px) {
+    .contact {
+        padding: 50px 150px;
+    }
+}
+@media(min-width: 850px) and (max-width: 1200px) {
+    .contact {
+        padding: 50px 100px;
+    }
+}
+@media(min-width: 500px) and (max-width: 850px) {
+    .contact {
+        padding: 50px 50px;
+    }
+}
+@media(min-width: 0px) and (max-width: 500px) {
+    .contact {
+        padding: 50px 25px;
+    }
+}
