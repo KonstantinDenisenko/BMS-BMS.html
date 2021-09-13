@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9356976a-421c-443c-921d-a35cff99a12d" name="Default" comment="" />
+    <list default="true" id="9356976a-421c-443c-921d-a35cff99a12d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/css/BMS.css" afterPath="$PROJECT_DIR$/css/BMS.css" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -27,8 +29,8 @@
       <file leaf-file-name="BMS.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/BMS.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19312">
-              <caret line="1136" column="24" lean-forward="true" selection-start-line="1136" selection-start-column="24" selection-end-line="1136" selection-end-column="24" />
+            <state relative-caret-position="238">
+              <caret line="673" column="5" lean-forward="true" selection-start-line="673" selection-start-column="5" selection-end-line="673" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -93,13 +95,16 @@
       <find>.position</find>
       <find>.interest</find>
       <find>.license</find>
-      <find>.footerWrap</find>
       <find>.logo</find>
       <find>before</find>
       <find>.aboutWork</find>
       <find>.footerNetwork</find>
       <find>.atention</find>
       <find>.connectUs</find>
+      <find>.atention p</find>
+      <find>.footerWrap</find>
+      <find>.footer</find>
+      <find>.apply</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -204,12 +209,12 @@
       <workItem from="1631301700135" duration="11537000" />
       <workItem from="1631352473854" duration="2207000" />
       <workItem from="1631391405978" duration="823000" />
-      <workItem from="1631558910374" duration="12874000" />
+      <workItem from="1631558910374" duration="13634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141854000" />
+    <option name="totallyTimeSpent" value="142614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="642" y="39" width="1185" height="955" extended-state="0" />
@@ -639,8 +644,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/BMS.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19312">
-          <caret line="1136" column="24" lean-forward="true" selection-start-line="1136" selection-start-column="24" selection-end-line="1136" selection-end-column="24" />
+        <state relative-caret-position="238">
+          <caret line="673" column="5" lean-forward="true" selection-start-line="673" selection-start-column="5" selection-end-line="673" selection-end-column="5" />
           <folding />
         </state>
       </provider>

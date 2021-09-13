@@ -673,7 +673,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
         display: none;
     }
     .apply {
-        width: 700px;
+        width: 800px;
         padding: 25px 30px;
         font-size: 60px;
     }
@@ -865,9 +865,9 @@ and (-webkit-min-device-pixel-ratio: 3) {
         width: auto;
     }
     .atention p {
-        font-size: 30px;
+        font-size: 32px;
         padding-bottom: 25px;
-        border-bottom: solid 5px dimgrey;
+        border-bottom: solid 2px dimgrey;
     }
     .city {
         font-size: 45px;
@@ -882,6 +882,9 @@ and (-webkit-min-device-pixel-ratio: 3) {
         padding-bottom: 25px;
         font-size: 45px;
         margin-top: 55px;
+    }
+    .footer {
+        margin-top: 70px;
     }
     .footerNetwork {
         font-size: 45px;
@@ -927,7 +930,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: none;
     }
     .apply {
-        width: 700px;
+        width: 800px;
         padding: 25px 30px;
         font-size: 60px;
     }
@@ -1119,9 +1122,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: auto;
     }
     .atention p {
-        font-size: 30px;
+        font-size: 32px;
         padding-bottom: 25px;
-        border-bottom: solid 5px dimgrey;
+        border-bottom: solid 2px dimgrey;
     }
     .city {
         font-size: 45px;
@@ -1136,6 +1139,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
         padding-bottom: 25px;
         font-size: 45px;
         margin-top: 55px;
+    }
+    .footer {
+        margin-top: 70px;
     }
     .footerNetwork {
         font-size: 45px;
