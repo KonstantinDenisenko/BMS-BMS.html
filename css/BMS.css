@@ -102,6 +102,10 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
 
 .sideMenu {
     display: none;
@@ -164,7 +168,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 .aboutUsWrap {
     display: flex;
-    background: url(../img/Gold.jpg) no-repeat;
+    background: url(../img/backgroundAbout1.jpg) no-repeat;
     background-size: cover;
 }
 .aboutUs {
@@ -515,7 +519,7 @@ textarea {
 }
 .contact {
     justify-content: center;
-    padding: 50px 350px;
+    padding: 50px 350px 15px;
     font-size: 22px;
     text-align: center;
 }
@@ -554,10 +558,15 @@ textarea {
     margin: 0 0 25px;
 }
 .telegram {
-    display: inline-block;
-    width: 20px;
-    height: 15px;
-    background: url("../img/favicon.png") -85px -14px no-repeat;
+    display: block;
+    margin: 25px auto;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 25px;
+    background: url(../img/telegram1.png) 17px 18px no-repeat;
+    border: solid 17px deepskyblue;
+    border-radius: 50%;
+    padding: 25px;
 
     animation-duration: 1s;
     animation-name: telegram;
@@ -574,7 +583,7 @@ textarea {
     }
 }
 .telegram:hover {
-    background: url("../img/favicon.png") -85px -58px no-repeat;
+    background: url("../img/telegram1.png") 17px -67px no-repeat;
     animation-name: none;
 }
 
@@ -611,16 +620,12 @@ textarea {
     color: white;
 }
 .aboutBMS {
-    1flex: 1 0 calc(30%/3);
     width: 200px;
 }
 .ourServices {
-    1flex: 1 0 calc(30%/3);
-    1padding: 0 20px 0 0;
     width: 200px;
 }
 .atention {
-    1flex: 1 0 calc(40%/3);
     width: 400px;
 }
 .footerNetwork {
@@ -638,6 +643,12 @@ textarea {
 .footerPolicy {
     text-align: center;
     margin-bottom: 25px;
+}
+.telegramFooter {
+    margin: 15px 0;
+}
+.mail a:hover {
+    color: gold;
 }
 .license {
     padding-top: 25px;
@@ -692,7 +703,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
         font-size: 55px;
     }
     .aboutWork {
-        background: url("../img/girl2.jpg") repeat-y center;
+        background: url("../img/baterfly.jpg") repeat-y center;
     }
     .aboutWork .colWrap .position{
         text-align: center;
@@ -952,7 +963,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-size: 55px;
     }
     .aboutWork {
-        background: url("../img/girl2.jpg") repeat-y center;
+        background: url("../img/baterfly.jpg") repeat-y center;
     }
     .aboutWork .colWrap .position{
         text-align: center;

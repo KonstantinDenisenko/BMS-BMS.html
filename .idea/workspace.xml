@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9356976a-421c-443c-921d-a35cff99a12d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/BMS.html" afterPath="$PROJECT_DIR$/BMS.html" />
       <change beforePath="$PROJECT_DIR$/css/BMS.css" afterPath="$PROJECT_DIR$/css/BMS.css" />
-      <change beforePath="$PROJECT_DIR$/flexbox/token.txt" afterPath="$PROJECT_DIR$/flexbox/token.txt" />
+      <change beforePath="$PROJECT_DIR$/img/baterfly.jpg" afterPath="$PROJECT_DIR$/img/baterfly.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/girl.jpg" afterPath="$PROJECT_DIR$/img/girl.jpg" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +23,8 @@
       <file leaf-file-name="BMS.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BMS.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="218" column="12" lean-forward="false" selection-start-line="218" selection-start-column="12" selection-end-line="218" selection-end-column="12" />
+            <state relative-caret-position="306">
+              <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -31,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/css/BMS.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="742" column="5" lean-forward="false" selection-start-line="742" selection-start-column="5" selection-end-line="742" selection-end-column="5" />
+              <caret line="89" column="21" lean-forward="true" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -40,7 +43,7 @@
       <file leaf-file-name="start-page.html" pinned="false" current-in-tab="false">
         <entry file="file://D:/dltort/DenisenkoKonstantin.github.io/start-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="1020">
               <caret line="60" column="56" lean-forward="false" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="56" />
               <folding />
             </state>
@@ -81,9 +84,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>anima</find>
-      <find>back</find>
-      <find>&lt;im</find>
       <find>&lt;span</find>
       <find>apply</find>
       <find>apply1</find>
@@ -98,7 +98,6 @@
       <find>.license</find>
       <find>.logo</find>
       <find>before</find>
-      <find>.aboutWork</find>
       <find>.footerNetwork</find>
       <find>.atention</find>
       <find>.connectUs</find>
@@ -108,6 +107,13 @@
       <find>.apply</find>
       <find>.colWrap p</find>
       <find>.advantage</find>
+      <find>aboutUsWrap</find>
+      <find>.earn</find>
+      <find>.telegram</find>
+      <find>.contact</find>
+      <find>.mail</find>
+      <find>.aboutWork</find>
+      <find>.navigation</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,7 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,6 +171,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,12 +218,13 @@
       <workItem from="1631301700135" duration="11537000" />
       <workItem from="1631352473854" duration="2207000" />
       <workItem from="1631391405978" duration="823000" />
-      <workItem from="1631558910374" duration="13906000" />
+      <workItem from="1631558910374" duration="14012000" />
+      <workItem from="1631647092781" duration="5820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142886000" />
+    <option name="totallyTimeSpent" value="148812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="729" y="15" width="1185" height="955" extended-state="0" />
@@ -631,7 +638,7 @@
     </entry>
     <entry file="file://D:/dltort/DenisenkoKonstantin.github.io/start-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="1020">
           <caret line="60" column="56" lean-forward="false" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="56" />
           <folding />
         </state>
@@ -639,8 +646,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BMS.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="218" column="12" lean-forward="false" selection-start-line="218" selection-start-column="12" selection-end-line="218" selection-end-column="12" />
+        <state relative-caret-position="306">
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -648,7 +655,7 @@
     <entry file="file://$PROJECT_DIR$/css/BMS.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="742" column="5" lean-forward="false" selection-start-line="742" selection-start-column="5" selection-end-line="742" selection-end-column="5" />
+          <caret line="89" column="21" lean-forward="true" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
           <folding />
         </state>
       </provider>
