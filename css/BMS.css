@@ -6,23 +6,33 @@ body {
 }
 .main {
     background: black;
+    position: relative;
 }
 .page {
     width: 100%;
 }
 .header {
     display: flex;
+    width: 100%;
     justify-content: center;
+    position: fixed;
+    background-color: rgba(12,12,13,0.86);
+    left: 0;
+    top: 0;
+    z-index: 7;
 }
 .headerWrap {
     display: flex;
     width: 1200px;
-    padding: 20px 25px 100px;
+    padding: 20px 40px;
     justify-content: space-between;
+}
+.content {
+    padding-top: 150px;
 }
 @media(min-width: 0px) and (max-width: 850px) {
     .headerWrap {
-        padding: 20px 25px 50px;
+        padding: 20px 40px;
     }
 }
 .logo {
@@ -39,6 +49,10 @@ body {
     /*1font-family: 'Oleo Script', cursive;*/
     /*1font-family: 'Tourney', cursive;*/
     /*1font-family: 'Abril Fatface', cursive;*/
+}
+.logo a {
+    color: white;
+    text-decoration: none;
 }
 .logo:hover {
     cursor: pointer;
@@ -170,11 +184,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
     display: flex;
     background: url(../img/backgroundAbout1.jpg) no-repeat;
     background-size: cover;
+    padding-top: 77px;
 }
 .aboutUs {
     width: 900px;
     margin: 0 auto;
-    padding: 70px 20px;
+    padding: 0 20px 70px;
     display: flex;
     flex-direction: column;
     color: white;
@@ -225,13 +240,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
     flex-direction: column;
     color: red;
     position: relative;
-    margin-bottom: 70px;
     background: url("../img/girl2.jpg") no-repeat center;
+    padding-top: 80px;
 }
 h1 {
     width: 530px;
     text-align: center;
-    margin: 50px auto;
+    margin: 0 auto 50px;
     padding: 0;
     font-size: 35px;
     background: url(../img/Gold.jpg) -1185px 200px;
@@ -315,6 +330,7 @@ h1 {
 
 .advantages {
     color: white;
+    padding-top: 80px;
     margin-bottom: 70px;
 }
 .advantagesWrap {
@@ -322,7 +338,7 @@ h1 {
 .advantagesWrap h3 {
     width: 530px;
     text-align: center;
-    margin: 50px auto;
+    margin: 0 auto 50px;
     padding: 0;
     font-size: 35px;
     background: url(../img/Gold.jpg) -1185px 200px;
@@ -627,6 +643,7 @@ textarea {
 }
 .atention {
     width: 400px;
+    text-align: center;
 }
 .footerNetwork {
     display: flex;
@@ -644,15 +661,42 @@ textarea {
     text-align: center;
     margin-bottom: 25px;
 }
-.telegramFooter {
-    margin: 15px 0;
-}
 .mail a:hover {
     color: gold;
 }
 .license {
     padding-top: 25px;
 }
+
+.mobSideMenu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: right;
+    z-index: 8;
+    background: url("../img/backgroundAbout3.jpg");
+    background-size: cover;
+    transition: all 0.30s ease-in-out;
+    border-radius: 0 0 0 50%;
+}
+.mobSideMenu ul {
+    list-style: none;
+    padding: 0 30px;
+}
+.mobSideMenu li {
+    margin-bottom: 15px;
+}
+.mobSideMenu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mobSideMenu a:hover {
+    cursor: pointer;
+    color: gold;
+}
+
 /*/////////////////////////////////////////////////////////////////////////////////*/
 
 @media only screen
@@ -694,6 +738,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
     .aboutUsWrap {
         background-size: cover;
         margin-bottom: 75px;
+        padding-top: 240px;
     }
     .aboutUs h2 {
         font-size: 55px;
@@ -704,6 +749,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
     }
     .aboutWork {
         background: url("../img/baterfly.jpg") repeat-y center;
+        padding-top: 250px;
     }
     .aboutWork .colWrap .position{
         text-align: center;
@@ -738,6 +784,9 @@ and (-webkit-min-device-pixel-ratio: 3) {
     }
     .mainLogoImgWrap {
         margin-bottom: 60px;
+    }
+    .advantages {
+        padding-top: 240px;
     }
     .advantagesWrap h3 {
         font-size: 55px;
@@ -851,9 +900,6 @@ and (-webkit-min-device-pixel-ratio: 3) {
         font-size: 60px;
         height: auto;
         margin: 0 50px;
-        /*transform: scale(1);*/
-        /*-ms-transform: scale(1);*/
-        /*-webkit-transform: scale(1);*/
         padding: 10px;
     }
     .sms {
@@ -910,6 +956,23 @@ and (-webkit-min-device-pixel-ratio: 3) {
     .license {
         font-size: 37px;
         padding: 0 50px;
+    }
+    .content {
+        padding-top: 250px;
+    }
+    .mobSideMenu {
+        top: -1570px;
+        right: -1600px;
+    }
+    .mobSideMenu a {
+        font-size: 100px;
+        font-weight: unset;
+    }
+    .mobSideMenu ul {
+        padding: 50px 70px;
+    }
+    .mobSideMenu li {
+        margin-bottom: 35px;
     }
 }
 
@@ -954,6 +1017,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .aboutUsWrap {
         background-size: cover;
         margin-bottom: 75px;
+        padding-top: 240px;
     }
     .aboutUs h2 {
         font-size: 55px;
@@ -964,6 +1028,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     .aboutWork {
         background: url("../img/baterfly.jpg") repeat-y center;
+        padding-top: 250px;
     }
     .aboutWork .colWrap .position{
         text-align: center;
@@ -998,6 +1063,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     .mainLogoImgWrap {
         margin-bottom: 60px;
+    }
+    .advantages {
+        padding-top: 240px;
     }
     .advantagesWrap h3 {
         font-size: 55px;
@@ -1170,6 +1238,23 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .license {
         font-size: 37px;
         padding: 0 50px;
+    }
+    .content {
+        padding-top: 250px;
+    }
+    .mobSideMenu {
+        top: -1570px;
+        right: -1600px;
+    }
+    .mobSideMenu a {
+        font-size: 100px;
+        font-weight: unset;
+    }
+    .mobSideMenu ul {
+        padding: 50px 70px;
+    }
+    .mobSideMenu li {
+        margin-bottom: 35px;
     }
 }
 
@@ -1231,5 +1316,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media(min-width: 0px) and (max-width: 500px) {
     .contact {
         padding: 50px 25px;
+    }
+}
+@media(min-width: 0px) and (max-width: 850px) {
+    .telegram {
+        margin: 25px auto;
     }
 }
