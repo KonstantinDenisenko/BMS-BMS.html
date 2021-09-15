@@ -143,5 +143,22 @@
         mobSideMenu.style.top = -1570 + "px";
         sideMenu.style.display = "block";
     }
+
+    const anchors = document.querySelectorAll(".scroll-to");
+
+    for (var anchor of anchors) {
+        (function (anchor) {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const blockID = anchor.getAttribute('href');
+                console.log(blockID);
+                document.querySelector(blockID).scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                })
+            })
+        })(anchor);
+    }
 })();
 
