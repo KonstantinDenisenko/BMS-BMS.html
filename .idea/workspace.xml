@@ -4,9 +4,9 @@
     <list default="true" id="9356976a-421c-443c-921d-a35cff99a12d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/BMS.html" afterPath="$PROJECT_DIR$/BMS.html" />
+      <change beforePath="$PROJECT_DIR$/BMSCallBack.html" afterPath="$PROJECT_DIR$/BMSCallBack.html" />
+      <change beforePath="$PROJECT_DIR$/BMSVacancies.html" afterPath="$PROJECT_DIR$/BMSVacancies.html" />
       <change beforePath="$PROJECT_DIR$/css/BMS.css" afterPath="$PROJECT_DIR$/css/BMS.css" />
-      <change beforePath="$PROJECT_DIR$/flexbox/token.txt" afterPath="$PROJECT_DIR$/flexbox/token.txt" />
-      <change beforePath="$PROJECT_DIR$/img/background.png" afterPath="$PROJECT_DIR$/img/background.png" />
       <change beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,18 +24,18 @@
       <file leaf-file-name="BMS.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BMS.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+            <state relative-caret-position="642">
+              <caret line="276" column="14" lean-forward="true" selection-start-line="276" selection-start-column="14" selection-end-line="276" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BMSVacancies.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BMSVacancies.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BMSVacancies.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            <state relative-caret-position="608">
+              <caret line="83" column="16" lean-forward="false" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -44,18 +44,28 @@
       <file leaf-file-name="BMSCallBack.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BMSCallBack.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="608">
+              <caret line="83" column="63" lean-forward="false" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BMS.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BMSQuestions.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BMSQuestions.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="83" column="63" lean-forward="false" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BMS.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/BMS.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="1300" column="21" lean-forward="false" selection-start-line="1300" selection-start-column="21" selection-end-line="1300" selection-end-column="21" />
+            <state relative-caret-position="170">
+              <caret line="775" column="28" lean-forward="true" selection-start-line="775" selection-start-column="28" selection-end-line="775" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -74,8 +84,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="153" column="60" lean-forward="true" selection-start-line="153" selection-start-column="60" selection-end-line="153" selection-end-column="60" />
+            <state relative-caret-position="200">
+              <caret line="129" column="51" lean-forward="true" selection-start-line="129" selection-start-column="51" selection-end-line="129" selection-end-column="51" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -87,12 +97,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.footer</find>
-      <find>.colWrap p</find>
-      <find>.advantage</find>
-      <find>aboutUsWrap</find>
-      <find>.earn</find>
-      <find>.telegram</find>
       <find>.navigation</find>
       <find>.header</find>
       <find>h1</find>
@@ -103,7 +107,6 @@
       <find>.atention</find>
       <find>opacity-main</find>
       <find>.content</find>
-      <find>.aboutWork</find>
       <find>.advantages</find>
       <find>.aboutUsWrap</find>
       <find>apply</find>
@@ -115,8 +118,15 @@
       <find>.mail</find>
       <find>.ourContacts</find>
       <find>Оставить заявку</find>
-      <find>.footerNetwork</find>
       <find>#a</find>
+      <find>.footerNetwork</find>
+      <find>.aboutWork</find>
+      <find>.apply:hover</find>
+      <find>.ourContacts h2</find>
+      <find>.logo:hover</find>
+      <find>.mobSideMenu li</find>
+      <find>.mobSideMenu a</find>
+      <find>.hide</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,11 +135,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/BMS.css" />
-        <option value="$PROJECT_DIR$/BMS.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/BMSCallBack.html" />
         <option value="$PROJECT_DIR$/BMSVacancies.html" />
+        <option value="$PROJECT_DIR$/BMSCallBack.html" />
+        <option value="$PROJECT_DIR$/BMSQuestions.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/BMS.html" />
+        <option value="$PROJECT_DIR$/css/BMS.css" />
       </list>
     </option>
   </component>
@@ -140,9 +151,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1003" />
+    <option name="x" value="943" />
     <option name="y" value="15" />
-    <option name="width" value="911" />
+    <option name="width" value="971" />
     <option name="height" value="955" />
   </component>
   <component name="ProjectView">
@@ -231,18 +242,18 @@
       <workItem from="1631391405978" duration="823000" />
       <workItem from="1631558910374" duration="14012000" />
       <workItem from="1631647092781" duration="15725000" />
-      <workItem from="1631692510049" duration="6998000" />
+      <workItem from="1631692510049" duration="13983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165715000" />
+    <option name="totallyTimeSpent" value="172700000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1003" y="15" width="911" height="955" extended-state="0" />
+    <frame x="943" y="15" width="971" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07821229" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07329843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32742316" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -272,14 +283,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/dltort/DenisenkoKonstantin.github.io/start-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="56" lean-forward="false" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/dltort/DenisenkoKonstantin.github.io/css/start_page.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2652">
@@ -605,14 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/BMS.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="1300" column="21" lean-forward="false" selection-start-line="1300" selection-start-column="21" selection-end-line="1300" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/dltort/DenisenkoKonstantin.github.io/start-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -621,36 +616,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/BMSCallBack.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="153" column="60" lean-forward="true" selection-start-line="153" selection-start-column="60" selection-end-line="153" selection-end-column="60" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BMS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <state relative-caret-position="608">
+          <caret line="83" column="63" lean-forward="false" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BMSCallBack.html">
+    <entry file="file://$PROJECT_DIR$/BMSQuestions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="594">
+          <caret line="83" column="63" lean-forward="false" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BMSVacancies.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        <state relative-caret-position="608">
+          <caret line="83" column="16" lean-forward="false" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BMS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="276" column="14" lean-forward="true" selection-start-line="276" selection-start-column="14" selection-end-line="276" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="129" column="51" lean-forward="true" selection-start-line="129" selection-start-column="51" selection-end-line="129" selection-end-column="51" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/BMS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="775" column="28" lean-forward="true" selection-start-line="775" selection-start-column="28" selection-end-line="775" selection-end-column="28" />
           <folding />
         </state>
       </provider>

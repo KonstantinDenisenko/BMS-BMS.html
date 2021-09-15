@@ -118,10 +118,17 @@
     var sideMenu = document.querySelector(".sideMenu");
     var mobSideMenu = document.querySelector(".mobSideMenu");
     var mobSideMenuLi = document.querySelector(".mobSideMenuLi");
-    var space = document.querySelector("html");
+    var hideWrap = document.querySelector(".hideWrap");
+    var content = document.querySelector(".content");
 
     sideMenu.addEventListener("click", function () {
         setNavMob();
+    });
+    hideWrap.addEventListener("click", function () {
+        unSetNavMob();
+    });
+    content.addEventListener("click", function () {
+        unSetNavMob();
     });
 
     function setNavMob() {
@@ -152,7 +159,6 @@
                 e.preventDefault();
 
                 const blockID = anchor.getAttribute('href');
-                console.log(blockID);
                 document.querySelector(blockID).scrollIntoView({
                     behavior: 'smooth',
                     block: 'start'

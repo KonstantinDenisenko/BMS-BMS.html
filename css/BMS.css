@@ -2,7 +2,7 @@ body {
     margin: 0;
     color: white;
     /*font-family: 'Oleo Script', cursive;*/
-    /*font-family: 'Playball', cursive;*/
+    font-family: 'Playball', cursive;
 }
 .main {
     background: black;
@@ -59,7 +59,6 @@ body {
 }
 .logo:hover {
     cursor: pointer;
-    background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -707,7 +706,26 @@ textarea {
 .license {
     padding-top: 25px;
 }
+.mobSideMenuLi .hideWrap {
+    text-align: right;
+    margin: 0 0 15px;
+}
+.hide {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url("../img/hideBtn.jpg") no-repeat;
+    background-size: cover;
 
+    -webkit-transition: background 0.5s ease-out;
+    -moz-transition: background 0.5s ease-out;
+    -o-transition: background 0.5s ease-out;
+    transition: background 0.5s ease-out;
+}
+.hide:hover {
+    background: url("../img/hideBtnHover.jpg") no-repeat;
+    background-size: cover;
+}
 .mobSideMenu {
     position: fixed;
     top: -1570px;
@@ -743,6 +761,27 @@ textarea {
 and (min-device-width: 320px)
 and (max-device-width: 812px)
 and (-webkit-min-device-pixel-ratio: 3) {
+    .mobSideMenuLi .hideWrap {
+        text-align: right;
+        margin: 0 0 15px;
+    }
+    .hide {
+        display: inline-block;
+        margin-left: 590px;
+        width: 130px;
+        height: 130px;
+        background: url("../img/hideBtn.jpg") no-repeat;
+        background-size: cover;
+
+        -webkit-transition: background 0.5s ease-out;
+        -moz-transition: background 0.5s ease-out;
+        -o-transition: background 0.5s ease-out;
+        transition: background 0.5s ease-out;
+    }
+    .hide:hover {
+        background: url("../img/hideBtnHover.jpg") no-repeat;
+        background-size: cover;
+    }
     .logo {
         font-size: 90px;
     }
@@ -772,6 +811,10 @@ and (-webkit-min-device-pixel-ratio: 3) {
         padding: 25px 30px;
         font-size: 60px;
     }
+    .apply:hover {
+        background: url(../img/Gold.jpg) -15px 355px;
+        animation-name: a;
+    }
     .aboutUs {
         font-size: 45px;
     }
@@ -788,7 +831,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
         font-size: 55px;
     }
     .aboutWork {
-        background: url("../img/baterfly.jpg") repeat-y center;
+        background: url("../img/baterfly.jpg") repeat-y 190px -290px;
         padding-top: 250px;
     }
     .aboutWork .colWrap .position{
@@ -977,6 +1020,9 @@ and (-webkit-min-device-pixel-ratio: 3) {
         font-size: 45px;
         margin-bottom: 55px;
     }
+    .ourContacts h2 {
+        font-size: 45px;
+    }
     .mail {
         display: block;
         padding-bottom: 25px;
@@ -1018,6 +1064,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
     .mobSideMenu a {
         font-size: 100px;
         font-weight: unset;
+        display: block;
     }
     .mobSideMenu ul {
         padding: 50px 70px;
@@ -1033,6 +1080,27 @@ and (-webkit-min-device-pixel-ratio: 3) {
 and (min-device-width: 320px)
 and (max-device-width: 812px)
 and (-webkit-min-device-pixel-ratio: 2) {
+    .mobSideMenuLi .hideWrap {
+        text-align: right;
+        margin: 0 0 15px;
+    }
+    .hide {
+        display: inline-block;
+        margin-left: 590px;
+        width: 130px;
+        height: 130px;
+        background: url("../img/hideBtn.jpg") no-repeat;
+        background-size: cover;
+
+        -webkit-transition: background 0.5s ease-out;
+        -moz-transition: background 0.5s ease-out;
+        -o-transition: background 0.5s ease-out;
+        transition: background 0.5s ease-out;
+    }
+    .hide:hover {
+        background: url("../img/hideBtnHover.jpg") no-repeat;
+        background-size: cover;
+    }
     .logo {
         font-size: 90px;
     }
@@ -1062,6 +1130,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
         padding: 25px 30px;
         font-size: 60px;
     }
+    .apply:hover {
+        background: url(../img/Gold.jpg) -15px 355px;
+        animation-name: a;
+    }
     .aboutUs {
         font-size: 45px;
     }
@@ -1078,7 +1150,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-size: 55px;
     }
     .aboutWork {
-        background: url("../img/baterfly.jpg") repeat-y center;
+        background: url("../img/baterfly.jpg") repeat-y 190px -290px;
         padding-top: 250px;
     }
     .aboutWork .colWrap .position{
@@ -1300,6 +1372,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin: 0 auto;
         font-size: 50px;
     }
+    .ourContacts h2 {
+        font-size: 45px;
+    }
     .btnContact {
         font-size: 40px;
         width: auto;
@@ -1315,12 +1390,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .mobSideMenu a {
         font-size: 100px;
         font-weight: unset;
+        display: block;
     }
     .mobSideMenu ul {
         padding: 50px 70px;
     }
     .mobSideMenu li {
         margin-bottom: 35px;
+        border-bottom: 1px solid gold;
     }
 }
 
