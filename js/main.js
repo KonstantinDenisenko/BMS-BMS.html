@@ -134,7 +134,7 @@
     function setNavMob() {
         mobSideMenu.style.right = 0 + "px";
         mobSideMenu.style.top = 0 + "px";
-        sideMenu.style.display = "none";
+        // sideMenu.style.display = "none";
     }
 
     for(var a = 0; a < mobSideMenuLi.querySelectorAll("li").length; a++){
@@ -148,7 +148,7 @@
     function unSetNavMob() {
         mobSideMenu.style.right = -1600 + "px";
         mobSideMenu.style.top = -1570 + "px";
-        sideMenu.style.display = "block";
+        // sideMenu.style.display = "block";
     }
 
     const anchors = document.querySelectorAll(".scroll-to");

@@ -224,21 +224,21 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 .apply a {
     text-decoration: none;
-    color: white;
-    animation-duration: 1s;
-    animation-name: apply;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-}
-@keyframes apply {
-    from {
     color: black;
-    }
-
-    to {
-        color: white;
-    }
+    /*animation-duration: 1s;*/
+    /*animation-name: apply;*/
+    /*animation-direction: alternate;*/
+    /*animation-iteration-count: infinite;*/
 }
+/*@keyframes apply {*/
+    /*from {*/
+    /*color: black;*/
+    /*}*/
+
+    /*to {*/
+        /*color: white;*/
+    /*}*/
+/*}*/
 .apply:hover {
     background: url(../img/Gold.jpg) -320px 250px;
     animation-name: a;
@@ -613,7 +613,12 @@ textarea {
     background: url("../img/telegram1.png") 17px -67px no-repeat;
     animation-name: none;
 }
-
+.telegramFooterWrap {
+    margin: 0 auto;
+}
+.telegramFooterWrap p {
+    text-align: center;
+}
 .footer {
     display: flex;
     flex-direction: column;
@@ -676,10 +681,10 @@ textarea {
 }
 .btnContact a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .btnContact a:hover {
-    color: white;
+    color: black;
 }
 .footerNetwork {
     display: flex;
@@ -702,6 +707,13 @@ textarea {
 }
 .mail a:hover {
     color: gold;
+}
+.mail p {
+    text-align: center;
+}
+.mail a {
+    display: block;
+    text-align: center;
 }
 .license {
     padding-top: 25px;
@@ -754,9 +766,6 @@ textarea {
     cursor: pointer;
     color: gold;
 }
-.linkToStartWrap {
-
-}
 .linkToStart {
     text-decoration: none;
     color: white;
@@ -766,12 +775,92 @@ textarea {
     color: gold;
 }
 
+/*////////////////////////////////////////////////////////////////////////////////////*/
+
+@media(min-width: 0px) and (max-width: 850px) {
+    .navigation {
+        display: none;
+    }
+    h1 {
+        font-size: 1.5em;
+        width: 400px;
+    }
+    .advantagesWrap h3 {
+        font-size: 1.5em;
+        width: auto;
+    }
+    .girlHair {
+        display: none;
+    }
+    .termsWrap {
+        width: auto;
+        padding: 0 100px;
+    }
+    .goldenLady {
+        display: none;
+    }
+    .interestPadding {
+        width: auto;
+    }
+    .interestPadding h3 {
+        width: auto;
+    }
+    .interestWrap {
+        margin: 0;
+        padding: 0 30px;
+    }
+}
+@media(min-width: 1400px) and (max-width: 1600px) {
+    .contact {
+        padding: 50px 250px;
+    }
+}
+@media(min-width: 1200px) and (max-width: 1400px) {
+    .contact {
+        padding: 50px 150px;
+    }
+}
+@media(min-width: 850px) and (max-width: 1200px) {
+    .contact {
+        padding: 50px 100px;
+    }
+}
+@media(min-width: 500px) and (max-width: 850px) {
+    .contact {
+        padding: 50px 50px;
+    }
+}
+@media(min-width: 0px) and (max-width: 500px) {
+    .contact {
+        padding: 50px 25px;
+    }
+}
+@media(min-width: 0px) and (max-width: 850px) {
+    .telegram {
+        margin: 25px auto;
+    }
+    .navigation {
+        display: none;
+    }
+}
+@media(min-width: 850px) and (max-width: 3840px) {
+    .linkToStartWrap {
+        display: none;
+    }
+}
+
 /*/////////////////////////////////////////////////////////////////////////////////*/
 
 @media only screen
 and (min-device-width: 320px)
 and (max-device-width: 812px)
 and (-webkit-min-device-pixel-ratio: 3) {
+    .linkToStartWrap {
+        display: inline-block;
+    }
+    .linkToStart {
+        font-size: 60px;
+    }
     .mobSideMenuLi .hideWrap {
         text-align: right;
         margin: 0 0 15px;
@@ -954,6 +1043,13 @@ and (-webkit-min-device-pixel-ratio: 3) {
         border: solid 17px deepskyblue;
         border-radius: 50%;
         padding: 25px;
+    }
+    .telegramFooterWrap {
+        margin: 0 auto;
+        font-size: 50px;
+    }
+    .telegramFooterWrap p {
+        text-align: center;
     }
     .contact {
         font-size: unset;
@@ -1037,8 +1133,16 @@ and (-webkit-min-device-pixel-ratio: 3) {
     .mail {
         display: block;
         padding-bottom: 25px;
-        font-size: 45px;
-        margin-top: 55px;
+        font-size: 50px;
+        margin: 55px auto 0;
+    }
+    .mail p {
+        text-align: center;
+        font-size: 50px;
+    }
+    .mail a {
+        display: block;
+        text-align: center;
     }
     .footer {
         margin-top: 70px;
@@ -1091,6 +1195,12 @@ and (-webkit-min-device-pixel-ratio: 3) {
 and (min-device-width: 320px)
 and (max-device-width: 812px)
 and (-webkit-min-device-pixel-ratio: 2) {
+    .linkToStartWrap {
+        display: inline-block;
+    }
+    .linkToStart {
+        font-size: 60px;
+    }
     .mobSideMenuLi .hideWrap {
         text-align: right;
         margin: 0 0 15px;
@@ -1273,6 +1383,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
         border: solid 17px deepskyblue;
         border-radius: 50%;
         padding: 25px;
+    }
+    .telegramFooterWrap {
+        margin: 0 auto;
+        font-size: 50px;
+    }
+    .telegramFooterWrap p {
+        text-align: center;
     }
     .contact {
         font-size: unset;
@@ -1356,8 +1473,16 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .mail {
         display: block;
         padding-bottom: 25px;
-        font-size: 45px;
-        margin-top: 55px;
+        font-size: 50px;
+        margin: 55px auto 0;
+    }
+    .mail p {
+        text-align: center;
+        font-size: 50px;
+    }
+    .mail a {
+        display: block;
+        text-align: center;
     }
     .footer {
         margin-top: 70px;
@@ -1414,74 +1539,3 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-@media(min-width: 0px) and (max-width: 850px) {
-    .navigation {
-        display: none;
-    }
-    h1 {
-        font-size: 1.5em;
-        width: 400px;
-    }
-    .advantagesWrap h3 {
-        font-size: 1.5em;
-        width: auto;
-    }
-    .girlHair {
-        display: none;
-    }
-    .termsWrap {
-        width: auto;
-        padding: 0 100px;
-    }
-    .goldenLady {
-        display: none;
-    }
-    .interestPadding {
-        width: auto;
-    }
-    .interestPadding h3 {
-        width: auto;
-    }
-    .interestWrap {
-        margin: 0;
-        padding: 0 30px;
-    }
-}
-@media(min-width: 1400px) and (max-width: 1600px) {
-    .contact {
-        padding: 50px 250px;
-    }
-}
-@media(min-width: 1200px) and (max-width: 1400px) {
-    .contact {
-        padding: 50px 150px;
-    }
-}
-@media(min-width: 850px) and (max-width: 1200px) {
-    .contact {
-        padding: 50px 100px;
-    }
-}
-@media(min-width: 500px) and (max-width: 850px) {
-    .contact {
-        padding: 50px 50px;
-    }
-}
-@media(min-width: 0px) and (max-width: 500px) {
-    .contact {
-        padding: 50px 25px;
-    }
-}
-@media(min-width: 0px) and (max-width: 850px) {
-    .telegram {
-        margin: 25px auto;
-    }
-    .navigation {
-        display: none;
-    }
-}
-@media(min-width: 850px) and (max-width: 3840px) {
-    .linkToStartWrap {
-        display: none;
-    }
-}
