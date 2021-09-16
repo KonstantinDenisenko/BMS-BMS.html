@@ -21,7 +21,7 @@
                             <li><a class="scroll-to" href="#advantages">Преимущества</a></li>
                             <li><a href="BMSVacancies.html">Вакансии</a></li>
                             <li><a href="BMSCallBack.html">Отзывы</a></li>
-                            <li><a class="scroll-to" href="#">Вопросы</a></li>
+                            <li><a href="BMSQuestions.html">Вопросы</a></li>
                             <li><a class="scroll-to" href="#aboutUs">Студия</a></li>
                             <li><a class="scroll-to" href="#atention">Контакты</a></li>
                         </ul>
@@ -186,27 +186,27 @@
                             </div>
                         </div>
                         <div class="formWrap">
-                            <form>
+                            <form action="sendmail.php" method="Post">
                                 Имя
                                 <div class="input">
-                                    <input id="name" class="name" type="text" required placeholder="Введите ваше имя...">
+                                    <input id="name" class="name" name="name" type="text" required placeholder="Введите ваше имя...">
                                 </div>
                                 Возраст
                                 <div class="input">
-                                    <input id="age" class="age" type="text" required placeholder="Введите ваш возраст...">
+                                    <input id="age" class="age" type="text" name="age" required placeholder="Введите ваш возраст...">
                                 </div>
                                 Опыт работы
                                 <div class="experience">
                                     Опыт работы в WebCam?<br>
-                                    <br><label for="yes"><input id="yes" class="skill" name="experience" type="radio" value="Да">Да</label>
-                                    <label for="no"><input id="no" class="skill" name="experience" type="radio" value="Нет">Нет</label>
+                                    <br><label for="yes"><input id="yes" class="skill" name="experience" type="radio" value="yes">Да</label>
+                                    <label for="no"><input id="no" class="skill" name="experience" type="radio" value="no">Нет</label>
                                 </div>
                                 Телефон
                                 <div class="input">
-                                    <input id="tel" class="tel" type="text" required placeholder="Ваш номер +38(0xx)xxx-xx-xx">
+                                    <input id="tel" class="tel" type="text" name="phone" required placeholder="Ваш номер +38(0xx)xxx-xx-xx">
                                 </div>
                                 <div class="input">
-                                    <textarea id="sms" class="sms" placeholder="Ваше сообщение..."></textarea>
+                                    <textarea id="sms" class="sms" name="message" placeholder="Ваше сообщение..."></textarea>
                                 </div>
                                 <button class="apply formBtn">Отправить заявку</button>
                             </form>
@@ -218,19 +218,19 @@
                         <div class="aboutBMS">
                             <h3>О студии</h3>
                             <ul>
-                                <li><a href="#">WebCam-Студия</a></li>
-                                <li><a href="#">Вакансии</a></li>
-                                <li><a href="#">Отзывы</a></li>
-                                <li><a href="#">Контакты</a></li>
+                                <li><a class="scroll-to" href="#aboutUs">WebCam-Студия</a></li>
+                                <li><a href="BMSVacancies.html">Вакансии</a></li>
+                                <li><a href="BMSCallBack.html">Отзывы</a></li>
+                                <li><a class="scroll-to" href="#atention">Контакты</a></li>
                             </ul>
                         </div>
                         <div class="ourServices">
                             <h3>Наши услуги</h3>
                             <ul>
-                                <li><a href="#">Работа вебкам</a></li>
-                                <li><a href="#">Работа для девушек</a></li>
-                                <li><a href="#">Работа на дому</a></li>
-                                <li><a href="#">Вакансия веб-модель</a></li>
+                                <li><a class="scroll-to" href="#form">Работа вебкам</a></li>
+                                <li><a class="scroll-to" href="#form">Работа для девушек</a></li>
+                                <li><a class="scroll-to" href="#form">Работа на дому</a></li>
+                                <li><a class="scroll-to" href="#form">Вакансия веб-модель</a></li>
                             </ul>
                         </div>
                         <div class="atention" id="atention">
@@ -249,7 +249,7 @@
                             <a href="https://t.me/k" class="telegram telegramFooter"></a>
                         </div>
                         <div class="mail">
-                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZWxvJQTPHTGZGQxvWSnGngNvpwNsktnBWgGHDTksJfFnMwSdbNBrjDDRjkfHPNLFmfQVV" >brilliantStudio@gmail.com</a>
+                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZWxvJQTPHTGZGQxvWSnGngNvpwNsktnBWgGHDTksJfFnMwSdbNBrjDDRjkfHPNLFmfQVV" >brilliant.studio.kh@gmail.com</a>
                         </div>
                     </div>
                     <ul class="footerNetwork">
@@ -266,12 +266,12 @@
         <div class="mobSideMenu">
             <ul class="mobSideMenuLi">
                 <li class="hideWrap"><a class="hide"></a></li>
-                <li><a class="scroll-to" href="#aboutWork">О работе</a></li>
+                <li><a class="scroll-to" href="#aboutWork">О WebCam</a></li>
                 <li><a class="scroll-to" href="#advantages">Преимущества</a></li>
                 <li><a href="BMSVacancies.html">Вакансии</a></li>
                 <li><a href="BMSCallBack.html">Отзывы</a></li>
                 <li><a href="BMSQuestions.html">Вопросы</a></li>
-                <li><a class="scroll-to" href="#aboutUs">О нас</a></li>
+                <li><a class="scroll-to" href="#aboutUs">Студия</a></li>
                 <li><a class="scroll-to" href="#atention">Контакты</a></li>
             </ul>
         </div>

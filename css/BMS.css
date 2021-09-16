@@ -754,6 +754,17 @@ textarea {
     cursor: pointer;
     color: gold;
 }
+.linkToStartWrap {
+
+}
+.linkToStart {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.linkToStart:hover {
+    color: gold;
+}
 
 /*/////////////////////////////////////////////////////////////////////////////////*/
 
@@ -1464,5 +1475,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media(min-width: 0px) and (max-width: 850px) {
     .telegram {
         margin: 25px auto;
+    }
+    .navigation {
+        display: none;
+    }
+}
+@media(min-width: 850px) and (max-width: 3840px) {
+    .linkToStartWrap {
+        display: none;
     }
 }
