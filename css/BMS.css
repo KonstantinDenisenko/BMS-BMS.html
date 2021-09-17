@@ -186,7 +186,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     display: flex;
     background: url(../img/backgroundAbout1.jpg) no-repeat;
     background-size: cover;
-    padding-top: 77px;
+    padding-top: 100px;
 }
 .aboutUs {
     width: 900px;
@@ -252,7 +252,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     color: red;
     position: relative;
     background: url("../img/girl2.jpg") no-repeat center;
-    padding-top: 80px;
+    padding-top: 100px;
 }
 h1 {
     width: 530px;
@@ -341,7 +341,7 @@ h1 {
 
 .advantages {
     color: white;
-    padding-top: 80px;
+    padding-top: 100px;
     margin-bottom: 70px;
 }
 .advantagesWrap {
@@ -774,7 +774,141 @@ textarea {
 .linkToStart:hover {
     color: gold;
 }
+.horizontalAdvantage img {
+    width: 100%;
+}
+.studioPhoto {
+    width: 325px;
+    padding: 5px;
+    margin-left: 100px;
+    font-size: 20px;
+    position: relative;
+}
+.callBackPhoto1:before {
+    background: url(../img/girl/1.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.callBackPhoto2:before {
+    background: url("../img/girl/2.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.callBackPhoto3:before {
+    background: url("../img/girl/3.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.callBackPhoto4:before {
+    background: url("../img/girl/4.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.callBackPhoto5:before {
+    background: url("../img/girl/5.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.callBackPhoto6:before {
+    background: url("../img/girl/6.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.callBackPhoto7:before {
+    background: url("../img/girl/7.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.callBackPhoto8:before {
+    background: url("../img/girl/8.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.callBackPhoto9:before {
+    background: url("../img/girl/9.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.callBackPhoto10:before {
+    background: url("../img/girl/10.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.callBackPhoto11:before {
+    background: url("../img/girl/11.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.callBackPhoto12:before {
+    background: url("../img/girl/12.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.studioPhotoWrap .advantagesWrap .callBackH3 {
+    width: 700px;
+    text-align: center;
+    margin: 0 auto 50px;
+    padding: 0;
+    font-size: 35px;
+    background: url(../img/Gold.jpg) -1178px 250px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ourContactCol {
+    text-align: center;
+}
 
+.QuestionsContent {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0 30px;
+}
+.box {
+    display: inline-block;
+    width: 500px;
+    margin: 0 auto;
+    vertical-align: top;
+}
+.group {
+    background: url("../img/background.png") no-repeat;
+    background-size: cover;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border: solid 5px white;
+    border-radius: 7px;
+}
+.text {
+    margin: 0;
+}
+a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+.sabmenu {
+    display: none;
+    background-color: black;
+    padding: 15px;
+}
+.active .sabmenu {
+    display: block;
+}
+
+@media(min-width: 0px) and (max-width: 1100px) {
+    .QuestionsContent {
+        display: flex;
+        flex-direction: column;
+    }
+    .box {
+        width: 90%;
+    }
+}
 /*////////////////////////////////////////////////////////////////////////////////////*/
 
 @media(min-width: 0px) and (max-width: 850px) {
@@ -808,6 +942,15 @@ textarea {
     .interestWrap {
         margin: 0;
         padding: 0 30px;
+    }
+    .studioPhotoWrap .advantagesWrap .callBackH3 {
+        width: auto;
+    }
+
+}
+@media(min-width: 0px) and (max-width: 1050px) {
+    .studioPhoto {
+        margin-left: 0;
     }
 }
 @media(min-width: 1400px) and (max-width: 1600px) {
@@ -855,6 +998,20 @@ textarea {
 and (min-device-width: 320px)
 and (max-device-width: 812px)
 and (-webkit-min-device-pixel-ratio: 3) {
+    .callBackH3 {
+        font-size: 55px;
+        width: auto;
+        background: url(../img/Gold.jpg) -995px 275px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .studioPhoto {
+        width: 100%;
+        padding: 5px;
+        font-size: 20px;
+        position: relative;
+        margin-left: 0;
+    }
     .linkToStartWrap {
         display: inline-block;
     }
@@ -921,7 +1078,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
     .aboutUsWrap {
         background-size: cover;
         margin-bottom: 75px;
-        padding-top: 240px;
+        padding-top: 260px;
     }
     .aboutUs h2 {
         font-size: 55px;
@@ -969,7 +1126,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
         margin-bottom: 60px;
     }
     .advantages {
-        padding-top: 240px;
+        padding-top: 255px;
     }
     .advantagesWrap h3 {
         font-size: 55px;
@@ -1187,6 +1344,17 @@ and (-webkit-min-device-pixel-ratio: 3) {
     .mobSideMenu li {
         margin-bottom: 35px;
     }
+    .studioPhotoWrap .advantagesWrap .callBackH3 {
+        font-size: 55px;
+        width: auto;
+        background: url(../img/Gold.jpg) -995px 275px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .QuestionsContent .box .group {
+        font-size: 50px;
+        margin-bottom: 70px;
+    }
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////*/
@@ -1195,6 +1363,13 @@ and (-webkit-min-device-pixel-ratio: 3) {
 and (min-device-width: 320px)
 and (max-device-width: 812px)
 and (-webkit-min-device-pixel-ratio: 2) {
+    .studioPhoto {
+        width: 100%;
+        padding: 5px;
+        font-size: 20px;
+        position: relative;
+        margin-left: 0;
+    }
     .linkToStartWrap {
         display: inline-block;
     }
@@ -1261,7 +1436,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .aboutUsWrap {
         background-size: cover;
         margin-bottom: 75px;
-        padding-top: 240px;
+        padding-top: 260px;
     }
     .aboutUs h2 {
         font-size: 55px;
@@ -1309,7 +1484,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin-bottom: 60px;
     }
     .advantages {
-        padding-top: 240px;
+        padding-top: 255px;
     }
     .advantagesWrap h3 {
         font-size: 55px;
@@ -1535,7 +1710,20 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin-bottom: 35px;
         border-bottom: 1px solid gold;
     }
+    .studioPhotoWrap .advantagesWrap .callBackH3 {
+        font-size: 55px;
+        width: auto;
+        background: url(../img/Gold.jpg) -995px 275px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .QuestionsContent .box .group {
+        font-size: 50px;
+        margin-bottom: 70px;
+    }
 }
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
 

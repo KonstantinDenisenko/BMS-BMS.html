@@ -25,61 +25,40 @@
                     </div>
                 </header>
                 <section class="content">
-                    <div class="advantagesWrap">
-                        <h3>Нажми на любой из вопросов и ты получишь ответ</h3>
-                    </div>
-                    <div class="QuestionsContent">
-                        <div class="box">
-                            <div class="group">
-                                <p class="text"><a href="#">Сколько я буду зарабатывать?</a></p>
-                                <div class="sabmenu">
-                                    <p class="text">
-                                        Заработок модели в студии Brilliant Models с графиком 4 смены в неделю составляет от 1500$ в месяц. Успешные модели зарабатывают больше 4000$ в месяц при загрузке в среднем 35 часов в неделю.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="group">
-                                <p class="text"><a href="#">Как часто происходят выплаты зарплаты?</a></p>
-                                <div class="sabmenu">
-                                    <p class="text">
-                                        Новенькие модели могут забрать деньги сразу после смены первые несколько дней. Мы также ценим тех, кто работает выше среднего и даем возможность ежедневной выплаты. Регулярные выплаты по понедельникам. Чётко, без задержек. Мы сами были моделями и знаем, насколько это важно.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="group">
-                                <p class="text"><a href="#">Что мне нужно будет делать?</a></p>
-                                <div class="sabmenu">
-                                    <p class="text">
-                                        Вебкам — это общение в видеочате. Многие еще называют этот процесс стриминг или броадкаст. Веб-камера транслирует комнату и модель в режиме реального времени на зарубежных сайтах. Твоя цель - сделать шоу интересным: можно танцевать, петь или просто приятно рассказывать истории из своей жизни. Этим можно заработать очень много - проверено!
-                                    </p>
-                                </div>
+                    <div class="form">
+                        <div class="contact">
+                            <h2>Оставь свою заявку</h2>
+                            <p>Если ты ищешь высокооплачиваемую работу в Харькове и тебя заинтересовала вакансия веб-модели, хочешь задать дополнительные вопросы или тебе просто интересно узнать о тонкостях работы веб-модели, тогда заполни данную анкету и мы свяжемся с тобой в ближайшее время.</p>
+                            <div class="favicon">
+                                <span class="earn">Или просто напиши нам в телеграм по ссылке ниже:</span>
+                                <a href="https://t.me/k" class="telegram" id="form"></a>
                             </div>
                         </div>
-                        <div class="box">
-                            <div class="group">
-                                <p class="text"><a href="#">Нужна ли модельная внешность?</a></p>
-                                <div class="sabmenu">
-                                    <p class="text">
-                                        Аудитория вебкам сайтов настолько большая, что девушки и парни разных категорий и типажей обязательно найдут своих зрителей, а тренер студии Brilliant Models поможет тебе найти свой индивидуальный образ и манеру поведения. Консультация с тренером абсолютно бесплатная!
-                                    </p>
+                        <div class="formWrap">
+                            <form action="sendmail.php" method="Post">
+                                Имя
+                                <div class="input">
+                                    <input id="name" class="name" name="name" type="text" required placeholder="Введите ваше имя...">
                                 </div>
-                            </div>
-                            <div class="group">
-                                <p class="text"><a href="#">А вдруг, кто-то узнает?</a></p>
-                                <div class="sabmenu">
-                                    <p class="text">
-                                        Мы работаем ТОЛЬКО на зарубежных сайтах и по умолчанию блокируем все страны СНГ и любые другие по твоему желанию. В первый рабочий день мы проводим с моделями подробный инструктаж, о том как обеспечить максимальную конфиденциальность.
-                                    </p>
+                                Возраст
+                                <div class="input">
+                                    <input id="age" class="age" type="text" name="age" required placeholder="Введите ваш возраст...">
                                 </div>
-                            </div>
-                            <div class="group">
-                                <p class="text"><a href="#">Какой график работы?</a></p>
-                                <div class="sabmenu">
-                                    <p class="text">
-                                        3 вида смен на выбор: утро, день, ночь. На собеседовании ты можешь согласовать свой индивидуальный график, чтобы совмещать работу с учёбой, тренировками и личной жизнью.
-                                    </p>
+                                Опыт работы
+                                <div class="experience">
+                                    Опыт работы в WebCam?<br>
+                                    <br><label for="yes"><input id="yes" class="skill" name="experience" type="radio" value="yes">Да</label>
+                                    <label for="no"><input id="no" class="skill" name="experience" type="radio" value="no">Нет</label>
                                 </div>
-                            </div>
+                                Телефон
+                                <div class="input">
+                                    <input id="tel" class="tel" type="text" name="phone" required placeholder="Ваш номер +38(0xx)xxx-xx-xx">
+                                </div>
+                                <div class="input">
+                                    <textarea id="sms" class="sms" name="message" placeholder="Ваше сообщение..."></textarea>
+                                </div>
+                                <button class="apply formBtn">Отправить заявку</button>
+                            </form>
                         </div>
                     </div>
                 </section>
@@ -113,7 +92,7 @@
                         <div class="ourContactCol">
                             <a href="https://t.me/" class="connectUs">Напишите нами в телеграм</a>
                             <a href="#form">или оставте свою заявку на сайте в форме</a>
-                            <button class="apply formBtn btnContact"><a href="BMSForm.html">Оставить заявку</a></button>
+                            <button class="apply formBtn btnContact"><a href="#form">Оставить заявку</a></button>
                         </div>
                         <div class="telegramFooterWrap">
                             <p>Перейдите по ссылке ниже на наш телеграм канал:</p>
